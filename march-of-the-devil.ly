@@ -88,7 +88,26 @@
     <g a'>8-> <g b'>-> <g g'>-> | %52 
     \time 3/4 
     <g a'>8-> <g e'>16 <g e'> <g e'> <e' a> <aes, f'> <f' a> <bes, g'>8-. <aes fes'>16 <fes' a> | %53 
-    
+    \time 3/8
+    <bes, g'>8\upbow( <aes fes'>16) r g8\upbow | %54 
+    \time 2/4 
+    <bes ges' a>8->-!\sf r <aes fes'>16\downbow <fes' a> <aes, fes'> <fes a> | %55 
+    \time 3/8
+    <bes g'>8( <aes fes'>16) r g8-.\upbow | %56 
+    \time 2/4 
+    <bes ges' a>8\downbow r <aes fes' a> r | %57 
+    \time 3/16 
+    <aes fes'>16 <fes' a> <aes, fes'> | %58 
+    \time 2/4 
+    <f' a>8 <aes, fes'> <f' a> <aes, d> | %59 
+    <fes' a>16 <aes, f'> <g' a>8 r <aes, fes'>16 <fes' aes> | %60 
+    <aes, fes'>16 <fes' a> <bes, g'>8( <fes' a>16) r <bes, g'>8( | %61 
+    <ges' a>8) r <aes, fes' a>\downbow r | %62 
+    <fes' a>16 <aes, fes'> <fes' a> <aes, f'> <fes' a>8-. <bes, g'>16 <g' a> | %63
+    <bes, g'>16 <g' a> <bes, g'>8( <fes' a>16) r <bes, g'>8( | %64 
+    <ges' a>8) r <aes, fes'>16 <fes' a> <aes, fes'> <fes' a> | %65 
+    <aes, fes'>8 <d a'> <aes, fes'>16 <fes' a> <aes, fes'>8( | %67 
+    <ges' a>16) r r8 <aes, fes' a>8\downbow r | %68 
 
 
   }
