@@ -155,7 +155,7 @@
     <bes, ges' a>8\downbow-!->\sf r <aes fes' a>\downbow\sf-!-> r | %90 
     \mark \default 
     \time 6/8 
-    r4 r8 r8 <bes g'> <aes fes'> | %91 
+    r4 r8 r8 <bes g'>-. <aes fes'>-. | %91 
     \time 2/4 
     <bes ges' a>8\sf-!-> r <aes fes' a>-!->\sf r | %92 
     \time 6/8 
