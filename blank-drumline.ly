@@ -20,7 +20,7 @@ emptymusic = {
 } {
 \new StaffGroup
   <<
-    \new Staff \with { instrumentName = #"Sn" shortInstrumentName = "Sn " } {
+    \new Staff \with { instrumentName = #"Sn " shortInstrumentName = "Sn " } {
       \clef percussion \emptymusic
     }
     \new Staff \with { instrumentName = #"Ten" shortInstrumentName = "Ten"} {
