@@ -9,7 +9,7 @@
   print-page-number = ##f
 }
 emptymusic = {
-  \repeat unfold 2 % Change this for more lines.
+  \repeat unfold 3 % Change this for more lines.
   { s1\break }
 }
 
