@@ -34,3 +34,7 @@ emptymusic = {
     }
   >>
 }
+
+\layout {
+  short-indent = .5\in
+}
