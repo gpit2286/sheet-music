@@ -9,7 +9,11 @@
     subtitle = "for Violin and Orchestra"
     tagline = ##f
     composer = "M. Bruch" 
+    instrument = "Tuba"
   }
+
+  \markup { \vspace #1 }
+
   \score {
     \new Staff {
       \compressFullBarRests
@@ -30,8 +34,56 @@
       }
     }
     \header {
-      title = "Introduction" 
+      title = ##f 
+      subtitle = "Introduction" 
+      instrument = ##f
+      composer = ##f
     }
   }
+
+  \score {
+    \new Staff {
+      \compressFullBarRests
+      \tempo "Adagio cantabile" 8 = 84
+      \clef "bass"
+      \time 3/4
+      \key ees \major
+      \relative c, {
+        %p10  
+        ees2.~ | ees2. | ees2.~ | ees4 f aes~ | aes g4.( ees8) | ees4 c f~ | f bes2~ | bes8 r r4 r | R2.*3 | r4 g2(\pp\espressivo | 
+        %p12 
+        c8.) r16 g2\espressivo( | c8.) r16 r4 r4 | R2.*4 | r4 r4 bes4\pp( | ees,2) r4 | R2.*5 | 
+        %p14 
+        R2.*10 
+        %p16 
+        R2.*4 | r4 d2\pp\espressivo( | g8.) r16 d2(\espressivo | g8.) r16 r4 r4 | R2.*6 | 
+        %p18 
+        R2.*10 
+        %p20 
+        R2.*16 
+        %p22 
+        R2.*4 | ees2\pp r4 | ees2 r4 | R2.*4 | 
+      }
+    }
+    \header {
+      title = ##f 
+      subtitle = "I." 
+      instrument = ##f
+      composer = ##f
+    }
+  }
+
+  \score {
+    \new Staff {
+    }
+    \header {
+      title = ##f 
+      subtitle = "II, III, IV - TACET" 
+      instrument = ##f
+      composer = ##f
+    }
+  }
+
+
 
 } 
