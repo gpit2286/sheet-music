@@ -46,6 +46,11 @@
         c4-> r r2 | R1 |
         R1 | R1 | 
         c8. c16 r4 r4 c8 c | c8. c16 r4 r4 c8 c | 
+        %p2 
+        c8. c16 r4 r4 c8 c | c4-> r4 r4 r8 c-> | 
+        c4-> r4 r4 r8 c-> | c4-> r4 r4 r8 c-> | 
+        c8-> f16 f f f f f f f f f f8 c-> | c4-> r r r8 c-> | 
+        c4-> r r r8 c-> | c4-> r r r8 c-> | 
 
       }
     }
