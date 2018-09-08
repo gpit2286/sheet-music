@@ -8,12 +8,12 @@
       \clef percussion \time 4/4 
       %p1 
       a16 a a8 a a16 a a a a8 r16 a a a | a-> a a a a a a a a a a a a a a a | 
-      \override NoteHead.style = #'cross
-      a16^"Solo" a a a a a a a a a a a a a a a | a a a a a a a a a a a a a a a a |
-      a^"Tutti" a a a a a a a a a a a a a a a | \repeat unfold 3 {a a a a a a a a a a a a a a a a }
+      \xNote {a16^"Solo" a a a} a \xNote {a a a a a a a} a \xNote{a a} a | \xNote {a16 a a a} a \xNote {a a a a a a a} a a a a |
+      \xNote {a16^"Tutti" a a a} a \xNote {a a a a a a a} a \xNote{a a} a | \xNote {a16 a a a} a \xNote {a a a a a a a} a a a a 
+      \xNote {a16 a a a} a \xNote {a a a a a a a} a \xNote{a a} a | \xNote {a16 a a a} a \xNote {a a a a a a a} a a a a 
       %p2 
-      a16 a a a a a a a a a a a a a a a | a4-> r r r8 \revert NoteHead.style a8^"Solo" | 
-      a8 a16 a a a a a a a a a a8 a-> | a-> a16 a a a a a a a a a a8 a-> | 
+      \xNote {a16 a a a} a \xNote {a a a a a a a} a \xNote{a a} a | a4-> r r r8 \revert NoteHead.style a8-> | 
+      a8^"Solo" a16 a a a a a a a a a a8 a-> | a-> a16 a a a a a a a a a a8 a-> | 
       a4->^"Tutti" r4 r4 r8 a8-> | a4-> r4 r4 r8 a8-> | 
       a4-> a8.-^ a16-^ r16 a8.-^ a4-^ | r4 a8.-^ a16-^ r16 a8.-^ a4-^ | 
       %p3 
