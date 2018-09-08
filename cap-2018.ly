@@ -23,13 +23,13 @@
       \override NoteHead.style = #'cross 
       a4.^"Tutti" a8 r4 a4 | r4 a4 a r | 
       %p4
+      \revert NoteHead.style
+      a8-> a-> a4-> r a8-> a-> | a4-> r r2 | 
+      \override NoteHead.style = #'cross 
+      a16 a a a a a a a a a a a a a a a | a a a a a a a a a a a a \revert NoteHead.style a a a a | 
+      a a a a a a a a a a a a a a a a  | a a a a a a a a a a a a \revert NoteHead.style a a a a | 
 
 
-      a8-> a-> a4-> r4 a8-> a-> | a16-> a a a-> a a a-> a a8-> a16:32 a:32 a-> a a a | 
-      \override NoteHead.style = #'cross
-      a16 a a a \revert NoteHead.style a \override NoteHead.style = #'cross a a a a16 a a a \revert NoteHead.style a \override NoteHead.style = #'cross a a \revert NoteHead.style a
-      \override NoteHead.style = #'cross
-      a16 a a a \revert NoteHead.style a \override NoteHead.style = #'cross a a a a16 a a a \revert NoteHead.style a a a a
     }
     \new Staff {
       \clef percussion \time 4/4 
