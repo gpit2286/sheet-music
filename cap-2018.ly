@@ -17,9 +17,19 @@
       a4->^"Tutti" r4 r4 r8 a8-> | a4-> r4 r4 r8 a8-> | 
       a4-> a8.-^ a16-^ r16 a8.-^ a4-^ | r4 a8.-^ a16-^ r16 a8.-^ a4-^ | 
       %p3 
+      r4 a8.-^ a16-^ r16 a8.-^ a4-^ | a16-> a a a a a a a a a a a a:32 a:32 a:32 a:32 | 
+      a4-> r r2 | r2 r4 r8 a16:32^"Solo" a:32 | 
+      a4-> r4 r2 | R1 | 
+      \override NoteHead.style = #'cross 
+      a4.^"Tutti" a8 r4 a4 | r4 a4 a r | 
+      %p4
 
 
-
+      a8-> a-> a4-> r4 a8-> a-> | a16-> a a a-> a a a-> a a8-> a16:32 a:32 a-> a a a | 
+      \override NoteHead.style = #'cross
+      a16 a a a \revert NoteHead.style a \override NoteHead.style = #'cross a a a a16 a a a \revert NoteHead.style a \override NoteHead.style = #'cross a a \revert NoteHead.style a
+      \override NoteHead.style = #'cross
+      a16 a a a \revert NoteHead.style a \override NoteHead.style = #'cross a a a a16 a a a \revert NoteHead.style a a a a
     }
     \new Staff {
       \clef percussion \time 4/4 
@@ -35,6 +45,12 @@
         <g b>4-> r4 r r8 <g b>-> | <g b>8 d'16:32 d:32  f16-> d d b-> d b-> d d f8-> <g, b>-> | 
         <g b>4-> r4 r r8 <g b>-> | <g b>4-> r4 r r8 <g b>-> | 
         %p3 
+        <g b>4-> r4 r r8 <g b>-> | <g b>8-> <g b> <g b>8-> <g b> <g b>8-> <g b> <g b>8-> <g b> | 
+        <g b>4-> d'8 f r d r b | <g b> <g b> <g b>4 r2 | 
+        r8 b d f r d r b | f'16:32 f:32 f:32 f:32 f:32 f:32 f:32 f:32 d4-> r | 
+        d4 f8 b, r f' r d | r f r d b4 g | 
+        %p4  
+
       }
     }
     \new Staff {
@@ -51,6 +67,11 @@
         c4-> r4 r4 r8 c-> | c4-> r4 r4 r8 c-> | 
         c8-> f16 f f f f f f f f f f8 c-> | c4-> r r r8 c-> | 
         c4-> r r r8 c-> | c4-> r r r8 c-> | 
+        %p3
+        c4-> r r r8 c-> | c8-> c c8-> c c8-> c c8-> c | 
+        c4-> r4 r2 | R1 | 
+        R1*2 | 
+         
 
       }
     }
