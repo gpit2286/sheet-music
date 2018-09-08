@@ -45,6 +45,18 @@
       \revert NoteHead.style a a a a | 
       a16 a a-> a a a-> a a a-> a a a-> a a a-> a | a a a-> a a-> a a-> a a a-> a a a-> a a-> a | 
       %p5
+      a8-> a-> a4-> r a8-> a-> | a16-> a a a-> a a a-> a a8-> a16:32 a:32 a16-> a a a |  
+      \override NoteHead.style = #'cross 
+      a16 a a a 
+      \revert NoteHead.style a \override NoteHead.style = #'cross a a a 
+      a a a a 
+      \revert NoteHead.style a \override NoteHead.style = #'cross a a \revert NoteHead.style a | 
+      \override NoteHead.style = #'cross 
+      a a a a
+      \revert NoteHead.style a \override NoteHead.style = #'cross a a a 
+      a a a a \revert NoteHead.style a a a a | 
+      \xNote {a a a a } a \xNote { a a } a \xNote{ a a } a \xNote{ a a} a \xNote{ a a } |
+      a4-> r r r8 a8-> a4-> r r2 \bar "|." 
 
     }
     \new Staff {
@@ -71,6 +83,10 @@
         d8-> b^"tutti" d f r d r b | f'16:32 f:32 f:32 f:32 f:32 f:32 f:32 f:32 d4-> r | 
         f8 d b g r d' b g | f':16 d:16 b:16 g r d':16 b:16 g | 
         %p5 
+        <g b>8-> <g b>-> <g b>4-> r <g b>8-> <g b>-> | <g b>4-> r f'16 f f f d d d d | 
+        f f f-> f f-> f f f-> f f-> f f f-> f f-> f | f f f-> f f-> f f f-> f f-> f f f d b g | 
+        f'16 f f-> f f-> f f f-> f f-> f f f-> f f-> f | \tuplet 6/4 4 {f16 f f d d d f f f d d d f f f d d d } f8 <g, b>8-> | 
+        <g b>4-> r r2 \bar "|." 
 
       }
     }
@@ -104,7 +120,7 @@
         c8. c16 r4 r c8 c | c8. c16 r4 r c8 c | 
         c8. c16 r4 r c8 c | c8. c16 r4 r c8 c | 
         %p5 
-        
+
       }
     }
   >>
