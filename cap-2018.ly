@@ -120,6 +120,10 @@
         c8. c16 r4 r c8 c | c8. c16 r4 r c8 c | 
         c8. c16 r4 r c8 c | c8. c16 r4 r c8 c | 
         %p5 
+        c8-> c-> c-> \xNote {f16 f f8 f } c8-> c-> | c4-> f8 f f16 f d d b b g g | 
+        c8. c16 r4 r c8 c | c8. c16 r4 r c8 c | 
+        c8. c16 r4 r c8 c | c4-> r r r8 c8-> | 
+        c4-> r r2 \bar "|." 
 
       }
     }
