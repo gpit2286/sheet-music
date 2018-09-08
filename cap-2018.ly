@@ -71,7 +71,7 @@
         d8-> b^"tutti" d f r d r b | f'16:32 f:32 f:32 f:32 f:32 f:32 f:32 f:32 d4-> r | 
         f8 d b g r d' b g | f':16 d:16 b:16 g r d':16 b:16 g | 
         %p5 
-        
+
       }
     }
     \new Staff {
@@ -99,6 +99,12 @@
           <g, b>4. <g b>8 <g b>4. <g b>8 | <g b>4. <g b>8 <g b>4. <g b>8 | 
         } >> 
         %p4
+        c8-> c-> c4-> r c8-> c-> | c4-> r r2 | 
+        c8. c16 r4 r c8 c | c8. c16 r4 r c8 c | 
+        c8. c16 r4 r c8 c | c8. c16 r4 r c8 c | 
+        c8. c16 r4 r c8 c | c8. c16 r4 r c8 c | 
+        %p5 
+        
       }
     }
   >>
