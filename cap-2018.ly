@@ -26,9 +26,25 @@
       \revert NoteHead.style
       a8-> a-> a4-> r a8-> a-> | a4-> r r2 | 
       \override NoteHead.style = #'cross 
-      a16 a a a a a a a a a a a a a a a | a a a a a a a a a a a a \revert NoteHead.style a a a a | 
-      a a a a a a a a a a a a a a a a  | a a a a a a a a a a a a \revert NoteHead.style a a a a | 
-
+      a16 a a a 
+      \revert NoteHead.style a \override NoteHead.style = #'cross a a a 
+      a a a a 
+      \revert NoteHead.style a \override NoteHead.style = #'cross a a \revert NoteHead.style a | 
+      \override NoteHead.style = #'cross 
+      a a a a
+      \revert NoteHead.style a \override NoteHead.style = #'cross a a a 
+      a a a a \revert NoteHead.style a a a a | 
+      \override NoteHead.style = #'cross 
+      a16 a a a 
+      \revert NoteHead.style a \override NoteHead.style = #'cross a a a 
+      a a a a 
+      \revert NoteHead.style a \override NoteHead.style = #'cross a a \revert NoteHead.style a | 
+      \xNote {a a} a \xNote a
+      \revert NoteHead.style a \xNote {a a} a 
+      \xNote a \revert NoteHead.style a \xNote {a a} 
+      \revert NoteHead.style a a a a | 
+      a16 a a-> a a a-> a a a-> a a a-> a a a-> a | a a a-> a a-> a a-> a a a-> a a a-> a a-> a | 
+      %p5
 
     }
     \new Staff {
@@ -50,7 +66,12 @@
         r8 b d f r d r b | f'16:32 f:32 f:32 f:32 f:32 f:32 f:32 f:32 d4-> r | 
         d4 f8 b, r f' r d | r f r d b4 g | 
         %p4  
-
+        <g b>8-> <g b>-> <g b>4-> r4 <g b>8-> <g b>-> | <g b>4-> r4 f'16:32 f:32 f:32 f:32 d:32 d:32 d:32 d:32 | 
+        <g, b>4-> d'8 f r d r b | <g b> <g b> <g b>4 f'8^"T1" f f d16:32^"T2" d:32 | 
+        d8-> b^"tutti" d f r d r b | f'16:32 f:32 f:32 f:32 f:32 f:32 f:32 f:32 d4-> r | 
+        f8 d b g r d' b g | f':16 d:16 b:16 g r d':16 b:16 g | 
+        %p5 
+        
       }
     }
     \new Staff {
