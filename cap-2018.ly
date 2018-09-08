@@ -71,8 +71,13 @@
         c4-> r r r8 c-> | c8-> c c8-> c c8-> c c8-> c | 
         c4-> r4 r2 | R1 | 
         R1*2 | 
-         
-
+        << {
+          \override NoteHead.style = #'cross
+          <d f>4 <d f>8 f <d f>4 <d f>8 f | <d f>4 <d f>8 f <d f>4 <d f>8 f |
+        } \\ {
+          <g, b>4. <g b>8 <g b>4. <g b>8 | <g b>4. <g b>8 <g b>4. <g b>8 | 
+        } >> 
+        %p4
       }
     }
   >>
