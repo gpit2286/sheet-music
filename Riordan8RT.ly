@@ -21,6 +21,7 @@
       \clef "percussion" \time 4/4
       \relative c' {
         \textLengthOn
+        \stemUp
         f8_"R" f_"..." f f f f f f | d_"L" d_"..." d d d d d d | b_"R" b_"..." b b b b b b | g_"L" g_"..." g g g g g g | 
         f'_"R" f_"..." f f f f f f | f16_"R" f_"L" f_"R" f_"R" d_"L" d_"R" d_"L" d_"L" b b b b g g g g | f'8_"R" d_"L" d_"L" d_"..." d d d d | g,16_"L" g_"R" g_"L" g_"L" b_"R" b_"L" b_"R" b_"R" d d d d f f f f | 
         a8_"L" f_"R" f_"R" f_"..." f f f f | a b, f' a b, f' a f | d_"L" d_"L" d_"..." d d d d d | a' g, d' a' g, d' a' d, | 
@@ -35,6 +36,7 @@
       \clef "percussion" \time 4/4
       \relative c' {
         \textLengthOn
+        \stemUp
         c8_"R" c_"..." c c c c c c | a' a f f d d b b | c_"L" c_"..." c c c c c c | g g b b d d f f | 
         a_"R" a_"L" f f d d b b | a'16_"R" a_"L" a_"R" a_"L" f f f f d d d d b b b b | g8_"R" g_"L" b b d d f f | g,16_"R" g_"L" g_"R" g_"L" b b b b d d d d f f f f | 
         c8_"R" c_"..." c c c c c c | a' f d b g b d f | c_"L" c_"..." c c c c c c | g b d f a f d b | 
@@ -63,7 +65,7 @@
   \layout {
   \context {
     \Voice
-    \override TextScript.staff-padding = #3.1
+    \override TextScript.staff-padding = #2
   }
 }
 }
