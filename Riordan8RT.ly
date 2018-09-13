@@ -7,7 +7,7 @@
   <<
     \new Staff {
       \clef "percussion" \time 4/4
-      b8 b b b b b b b | b b b b b b b b | b b b b b b b b | b b b b b b b b | 
+      b8_"R" b_"..." b b b b b b | b b b b b b b b | b b b b b b b b | b b b b b b b b | 
       b b b b b b b b | b16 b b b b b b b b b b b b b b b | b8 b b b b b b b | b16 b b b b b b b b b b b b b b b | 
       b8 b b b b b b b | b b b b b b b b | b b b b b b b b | b b b b b b b b | 
       b8 b b b b b b b | b16 b b b b b b b b b b b b b b b | b8 b b b b b b b | b16 b b b b b b b b b b b b b b b | 
@@ -56,4 +56,10 @@
     }
   >>
 
+  \layout {
+  \context {
+    \Voice
+    \override TextScript.staff-padding = #2.2
+  }
+}
 }
