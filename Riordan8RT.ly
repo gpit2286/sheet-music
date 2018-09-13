@@ -24,12 +24,16 @@
       \relative c' {
         c8 c c c c c c c | a' a f f d d b b | c c c c c c c c | g g b b d d f f | 
         a a f f d d b b | a'16 a a a f f f f d d d d b b b b | g8 g b b d d f f | g,16 g g g b b b b d d d d f f f f | 
-        
+
       }
     }
 
     \new Staff {
       \clef "percussion" \time 4/4
+      \relative c' {
+        c4 c c c | c c c c | c c c c | c c c c | 
+        c c c c | c c c c | c c c c | c c c c | 
+      }
     }
   >>
 
