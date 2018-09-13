@@ -10,8 +10,8 @@
       \textLengthOn
       b8_"R" b_"..." b b b b b b | b_"L" b_"..." b b b b b b | b_"R" b_"..." b b b b b b | b_"L" b_"..." b b b b b b | 
       b_"R" b_"..." b b b b b b | b16_"R" b_"L" b_"R" b_"L" b b b b b b b b b b b b | b8_"R" b_"L" b_"L" b_"..." b b b b | b16_"L" b_"R" b_"L" b_"R" b b b b b b b b b b b b | 
-      b8 b b b b b b b | b b b b b b b b | b b b b b b b b | b b b b b b b b | 
-      b8 b b b b b b b | b16 b b b b b b b b b b b b b b b | b8 b b b b b b b | b16 b b b b b b b b b b b b b b b | 
+      b8_"L" b_"R" b_"R" b_"..." b b b b | b_"R" b_"L" b_"R" b_"L" b_"R" b_"L" b_"R" b_"R" | b_"L" b_"L" b_"..." b b b b b | b_"L" b_"R" b_"L" b_"R" b_"L" b_"R" b_"L" b_"L" | 
+      b8_"R" b_"L" b_"R" b_"L" b b b b | b16_"R" b_"R" b_"L" b_"L" b_"..." b b b b b b b b_"R" b_"L" b_"R" b_"R" | b8_"L" b_"R" b_"L" b_"R" b b b b | b16_"L" b_"L" b_"R" b_"R" b_"..." b b b b b b b b_"L" b_"R" b_"L" b_"L" | 
       b8 b b b b b b b | b b b b b b b b | b b b b b b b b | b b b b b b b b | 
       b8 b b b b b b b | b16 b b b b b b b b b b b b b b b | b8 b b b b b b b | b16 b b b b b b b b b b b b b b b | b4 r4 r2 
       \bar "|." 
