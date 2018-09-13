@@ -25,8 +25,8 @@
         f'_"R" f_"..." f f f f f f | f16_"R" f_"L" f_"R" f_"R" d_"L" d_"R" d_"L" d_"L" b b b b g g g g | f'8_"R" d_"L" d_"L" d_"..." d d d d | g,16_"L" g_"R" g_"L" g_"L" b_"R" b_"L" b_"R" b_"R" d d d d f f f f | 
         a8_"L" f_"R" f_"R" f_"..." f f f f | a b, f' a b, f' a f | d_"L" d_"L" d_"..." d d d d d | a' g, d' a' g, d' a' d, | 
         f8_"R" f_"L" f_"R" f_"L" f f f f | f16_"R" f_"R" d_"L" d_"L" b_"..." b g g f' f d d b b g g | d'8_"R" d_"L" d_"R" d_"R" d_"L" d_"R" d_"L" d_"R" | g,16_"L" g_"L" b_"R" b_"R" d_"..." d f f g, g b b d d f f | 
-        a8 f f f f f f f | f d b g f' d b g | f' d d d d d d d | g, b d f g, b d f | 
-        a f f f f f f f | f16 d b g f' d b g f' d b g f' d b g | f'8 d d d d d d d | g,16 b d f g, b d f g, b d f g, b d f | d4 r4 r2 
+        a8_"L" f_"R" f_"..." f f f f f | f_"R" d_"L" b g f' d b g | f'_"R" d_"L" d_"..." d d d d d | g,_"L" b_"R" d f g, b d f | 
+        a_"L" f_"R" f_"..." f f f f f | f16_"R" d_"L" b g f' d b g f' d b g f' d b g | f'8_"R" d_"L" d_"..." d d d d d | g,16_"L" b_"R" d f g, b d f g, b d f g, b d f | d4 r4 r2 
         \bar "|."  
       }
     }
