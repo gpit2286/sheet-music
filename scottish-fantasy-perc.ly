@@ -48,6 +48,6 @@
     R2.*5 | g4 r4 r4 | R2.*7 | r4 g4 r4 | r4 g4 r4 | R2.*4 | R2.\fermataMarkup \bar "|."
   }
   \header {
-    piece = "I."
+    piece = "Mvt. I"
   }
 }
