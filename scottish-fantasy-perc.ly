@@ -9,6 +9,7 @@
     \clef percussion
     \time 4/4 
     \tempo "Grave" 4=54
+    \compressFullBarRests
     g4\pp r4 r2 | g4 r4 r2 | g4 r4 r2 | g4 r4 r2 | g4 r4 r2 | g4\> r4 r2 | g4 r4 r2 | 
     %A 
     \mark \default 
@@ -31,7 +32,7 @@
     \clef percussion
     \time 3/4 
     \tempo "Adagio cantabile" 8=84
-
+    \compressFullBarRests
     g4 r4 r4 | R2. | g4 r4 r4 | R2.*4 | 
     %D 
     \mark 4
@@ -42,10 +43,11 @@
     \mark 6 
     r4 g4 r4 | r4 g4 r4 | R2.*2 | r4 g4 r4 | r4 g4 r4 | R2.*6 | 
     \mark 7 
-
-
-
-
-
+    g4 r4 r4 | R2. | g4 r4 r4 | R2.*15 | 
+    \mark 8 
+    R2.*5 | g4 r4 r4 | R2.*7 | r4 g4 r4 | r4 g4 r4 | R2.*4 | R2.\fermataMarkup \bar "|."
+  }
+  \header {
+    piece = "I."
   }
 }
