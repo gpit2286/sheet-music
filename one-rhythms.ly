@@ -1,145 +1,29 @@
+#(define sequence-number 0) 
+
+#(define-markup-command (score-sequence layout props sequence-number)
+(number?)
+ (interpret-markup layout props
+   (markup #:large #:bold (number->string sequence-number))))
+
+
+#(set! sequence-number (1+ sequence-number)) 
 \new RhythmicStaff \with {
-  instrumentName = "1."
+  instrumentName = \markup\score-sequence #sequence-number 
 } {
-\time 4/4 c4 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8
-c4 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c4 c4 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c4
+ c4 c c c | c2 c2 | 
+ c1 |  c2 c2 | 
+ c4 c4 c4 c4 | 
+ c2 c2 | c4 c4 c4 c4 | 
+ c1 | c1 \bar "|."
 }
 
+#(set! sequence-number (1+ sequence-number)) 
 \new RhythmicStaff \with {
-  instrumentName = "2."
+  instrumentName = \markup\score-sequence #sequence-number 
 } {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c4 c4 c8 c8 c4 c8 c8 c8 c8 c8 c8 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c4 c4 c8 c8 c4 c4 c8 c8 c4
+ c4 c c c | c2 c2 | 
+ c1 |  c2 c2 | 
+ c4 c4 c4 c4 | 
+ c2 c2 | c4 c4 c4 c4 | 
+ c1 | c1 \bar "|."
 }
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
-\new RhythmicStaff \with {
-  instrumentName = "3."
-} {
-  \time 4/4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c8 c8 c8 c8 c8 c8 c8 c8 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4 c4 c8 c8 c4 c8 c8 c8 c8 c4 c4
-}
-
