@@ -47,3 +47,19 @@
   }
 }
 
+\new Staff {
+  \clef treble \time 3/4 \key aes \major
+  \relative c' { 
+    aes'4. bes8 c4 | des4. c8 bes4 | c4. bes8 aes4 | bes2 bes 4 | 
+    c4. des8 ees4 | des4. c8 bes4 | aes4. bes8 g4 | aes2. \bar "|."
+  }
+}
+
+\new Staff {
+  \clef treble \time 4/4 \key c \major
+  \relative c' { 
+    c4 g a b | c d e c | g' f8 e f4 e8 d |  e4 d8 c d2 | 
+    c4 g a b | c d e c | g'8 f e4 f8 e d4 | c2 r2 \bar "|."
+  }
+}
+
