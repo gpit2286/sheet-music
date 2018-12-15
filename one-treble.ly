@@ -111,3 +111,34 @@
      \bar "|."
   }
 }
+
+% France
+\new Staff {
+  \clef treble \time 2/4 \key c \major
+  \relative c' { 
+    r4 r8 e16( f | g8 g a g | f8. e16 d8) d16( e |
+    f8 f g f | e8. d16 c8) g( | c b c d | 
+    e e g f | e4 d c~ c8) r  \bar "|."
+  }
+}
+
+%USA 
+\new Staff {
+  \clef bass \time 4/4 \key f \major
+  \relative c { 
+    \tempo "Moderato"
+    \partial 4 {c4(}
+    f8 f a g f4 a | f d c2) | 
+    f8( f a g f4 a8 bes | c4 g g2 | c4. c8 c2) | 
+    f,8( f f4 a2 | f4 d8 d c c f g a4 g f)   \bar "|."
+  }
+}
+
+% Chorale
+\new Staff {
+  \clef treble \time 4/4 \key ees \major
+  \relative c' { 
+    \partial 4 {ees4} g4 f g aes | bes2 g4 c | bes aes g f | g2 r4 bes | 
+    c4 d ees d | c2 bes4 g | aes g f f ees2 r4  \bar "|."
+  }
+}
