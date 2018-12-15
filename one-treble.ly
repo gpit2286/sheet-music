@@ -63,3 +63,26 @@
   }
 }
 
+\new Staff {
+  \clef treble \time 3/4 \key d \major
+  \relative c' { 
+    b4 d fis | fis4. d8 b4 | b4 ais b | cis4. d8 cis4 | 
+    d4 e fis | g4. fis8 e4 | fis4 d cis | b2.  \bar "|."
+  }
+}
+
+\new Staff {
+  \clef treble \time 2/4 \key bes \major
+  \relative c' { 
+    bes4 d8 f | c4 ees8 g | a,4 c8 ees | d4 f8 bes | 
+    d,4 f8 bes | ees,4 g8 bes | f4 a8 c | bes4 bes  \bar "|."
+  }
+}
+
+\new Staff {
+  \clef treble \time 3/4 \key f \major
+  \relative c' { 
+    d4 f2 | e4 g2 | cis,4 e2 | d4 fis2 | 
+    fis4 a2 | g4 bes2 | a4 b cis | d2.  \bar "|."
+  }
+}
