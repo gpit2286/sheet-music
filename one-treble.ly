@@ -142,3 +142,43 @@
     c4 d ees d | c2 bes4 g | aes g f f ees2 r4  \bar "|."
   }
 }
+
+% Netherlands
+\new Staff {
+  \clef treble \time 4/2 \key a \major
+  \relative c'' { 
+  \tempo "Lento" 
+  a1\p gis2 fis | e1 a1 | b1 a2 b | cis1 a | 
+  d1 cis2 b | cis1 b2 a | gis a b gis | a\breve \bar "|."
+  }
+}
+
+% A. Scarlatti
+\new Staff {
+  \clef treble \time 3/4 \key f \major
+  \relative c' { 
+  f2 r4 | a2 r4 | c2 c4 | c a bes | c a bes | 
+  c bes a | g f g | a g2 | f2.   \bar "|."
+  }
+}
+
+% Chorale 
+\new Staff {
+  \clef bass \time 4/4 \key d \major
+  \relative c { 
+  \partial 4 {d4} a' fis d a' | b b a a | b cis d cis | b b a fis | 
+  b a g fis e2 d4 r | a'2 fis a fis | fis4 fis e e | 
+  fis fis e fis g fis e2 | d4 r d' cis | b a g fis | e2 d4  \bar "|."
+  }
+}
+
+% Lully
+\new Staff {
+  \clef treble \time 3/4 \key c \major
+  \relative c'' { 
+  \tempo "Gai"
+  g4\mp e c |  d d g | e c8 d e4 | d2 g,4 | 
+  d'4\mf d8 e f4 | e4 f8 e d c | d e d c b4 | c2.  \bar "|."
+  }
+}
+
