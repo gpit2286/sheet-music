@@ -86,3 +86,28 @@
     fis4 a2 | g4 bes2 | a4 b cis | d2.  \bar "|."
   }
 }
+
+% Cavalli 
+\new Staff {
+  \clef bass \time 3/4 \key g \major
+  \relative c' { 
+    g4\mp( fis g | gis f a | b a b | g2) r4 | 
+    r4 r4 b4( | a g g | g fis e | fis d) r | 
+    r4 r d'(\mf | c b a | b a g | a fis d) | 
+    e fis g | fis( g a b a b | g2) r4 \bar "|."
+  }
+}
+
+% Sweden 
+\new Staff {
+  \clef treble \time 3/4 \key bes \major
+  \relative c'' { 
+    \set Timing.beamExceptions = #'()
+    \set Timing.beatStructure = #'(1 1 1)
+    \tempo "Marcato" 
+    g8.( a16 bes4 g8 bes | a8. fis16 d4 fis8. g16 | a8. bes16 g4) r \bar ":|."
+    bes8.( c16 d4 bes8. d16 | d8 d a2 | d4 c8. bes16 a8. g16 | 
+    g4 fis8) r r4 | g8( a bes a c bes | a g bes a g fis | fis4 g) r
+     \bar "|."
+  }
+}
