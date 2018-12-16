@@ -133,3 +133,12 @@
         a2 fis4 r8 a8 | b( e) d b a( fis) e e | d2. \bar "|." 
     }
 }
+
+\new Staff {
+    \clef treble \time 2/4 \key e \major 
+    \relative c'' {
+        b2 | e4( cis) b4.( gis8) | b2 | b8 gis'4 a8 | gis4( fis) | b2 | gis | 
+        b, | e4( cis) | b4.( gis8) | b2 | b8 gis'4 a8 | gis4( fis) | e8 r b' r | 
+        b r e, r \bar "|."
+    }
+}
