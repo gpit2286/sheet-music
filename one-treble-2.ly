@@ -123,3 +123,13 @@
         e4 c d4. c8 c2 r4 \bar "|."
     }
 }
+
+% Lula Is Gone (Foster, Stephen)
+\new Staff {
+    \clef treble \time 4/4 \key d \major
+    \relative c' {
+        \partial 4 {fis8 g} a4. a8 b( d) d b | a2 fis4 r8 a8 | 
+        b8( e) d b a( fis) e d | e2. fis8 g | a4. a8 b( d) d b | 
+        a2 fis4 r8 a8 | b( e) d b a( fis) e e | d2. \bar "|." 
+    }
+}
