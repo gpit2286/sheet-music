@@ -234,3 +234,33 @@
   }
 }
 
+% Smetana 
+\new Staff {
+  \clef treble \time 6/8 \key g \major 
+  \relative c' {
+    \tempo "Ausdruckvoll" 
+    \partial 8 {b8\mp} e4 fis 8 g4 a8 | b4.\< b4 b8\! | c4. c4. | b4.\>~ b4\! b8 | 
+    a4. a | g4 a8 g4 g8 | fis4. fis | e4.~ e4 \bar "|."
+  }
+}
+
+% Schubert 
+\new Staff {
+  \clef treble \time 3/4 \key c \major 
+  \relative c' {
+    \tempo "Andantino"
+    c2( e4 d2 b4 c4 e g g2) d4( | f2 a4 | g2 e4 | f4 e d | c4) r r \bar "|."
+  }
+}
+
+% 2 Mazurkas (Höfle, Paul)
+\new Staff {
+  \clef treble \time 3/4 \key aes \major 
+  \relative c' {
+    \tempo "Munter" 
+    ees8.\p d16 ees4. e8 | f8.\< e16 f4. fis8\! | g8(-. aes-. bes-. c-. des-. d-.) | 
+    f8.->( d16 ees4) r8. ees16( | aes8-.) r8 aes,4.-> a8 | a8( bes) bes4 r8 bes8( | 
+    f'8-.) r8 bes,4.-> b8 | b8( c) c4 r8 ees,8 | ees'\f r aes,4. aes8 | aes8. g16 g4 r8 f'8 | 
+    aes8.->( g16) g8.->( d16) d8( f) | f8.->( ees16) ees8 r \bar "|."
+  }
+}
