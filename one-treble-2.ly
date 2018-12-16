@@ -112,3 +112,14 @@
         e'2 e,4 | d8( cis d e fis g | a b c4. fis,8 a4-.) g8( fis g a) g4 r r \bar "|."
     }
 }
+
+%Ihr Christen, auserkoren (Herzog, Johann Georg) 
+\new Staff {
+    \clef treble \time 4/4 \key f \major 
+    \relative c' {
+        \tempo "Fr[o umlat]hlich." 
+        \partial 4 {f4\p} | a a g a8 g | f2 f4 a | c c bes a | g2 r4 f | 
+        a a g a8 g | f2 f4 a | c c bes a | g2 r4 g | c b c d | e2 c4 d\f | 
+        e4 c d4. c8 c2 r4 \bar "|."
+    }
+}
