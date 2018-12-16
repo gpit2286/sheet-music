@@ -65,3 +65,25 @@
         b4. g8 | g4. fis8 | fis e e a | a d, d \bar "|." 
     }
 }
+
+%Admeto, HWV 22 (Handel, George Frideric) Luci Care
+\new Staff {
+    \clef treble \time 3/4 \key f \minor 
+    \relative c'' {
+        \tempo "Largo" r4 aes4. bes8 | c4 f, r8. f'16 | ees4 aes, r8. bes16 | 
+        g4 aes r | r aes bes | c f, r8. c'16 | des4 c r8. f16 | aes,4( g2) | f2. \bar "|."
+    }
+}
+
+%Polish Mass in F major, Op.77 (Elsner, Józef)
+\new Staff {
+    \clef bass \time 2/4 \key f \major 
+    \relative c {
+        \tempo "Andantino." 
+        \partial 8 {c8} f8. c16 a8 c | g'~( g32 f e d) c8 r | 
+        a'4 f8 d | bes'4 a8 g | f4 e8 g16 a | bes4 a | g8. e16 g8 g16 a | 
+        bes4 a8 a | g8. e16 g8 r | r f a c | c8. d,16 d8 bes'16 g | f4 g8. g16 | 
+        gis8. a16 f8 \bar "|."
+    }
+
+}
