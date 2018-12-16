@@ -89,3 +89,14 @@
 }
 
 %Frauenw[u umlat]rde, Op.277 (Strauss, Josef) 
+\new Staff {
+    \clef treble \time 3/4 \key ees \major
+    \relative c' {
+        \tempo "Valse 1"
+        \partial 2 {bes4(\pp c8 d)} | ees2( bes'4)~ | bes g( ees) | ees8 r r4 d4~ | 
+        d bes( c8 d) | f2( d'4)~ | d c( aes) | fis8 r r4 g4~ | g4 bes,( c8 d) | 
+        ees2( bes'4)~ | bes( g ees) | b8\< r r4 c~ | c c4(\f d8 ees) | f2( d'4)~ | 
+        d( ees a,) | bes2.~ | bes4 
+        \bar "|." 
+    }
+}
