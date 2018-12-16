@@ -57,7 +57,7 @@
     }
 }
 
-%L’Esprit français, Op.182 (Waldteufel, Emile)
+%LâEsprit franÃ§ais, Op.182 (Waldteufel, Emile)
 \new Staff {
     \clef bass \key g \major \time 2/4 
     \relative c {
@@ -75,7 +75,7 @@
     }
 }
 
-%Polish Mass in F major, Op.77 (Elsner, Józef)
+%Polish Mass in F major, Op.77 (Elsner, JÃ³zef)
 \new Staff {
     \clef bass \time 2/4 \key f \major 
     \relative c {
@@ -98,5 +98,17 @@
         ees2( bes'4)~ | bes( g ees) | b8\< r r4 c~ | c c4(\f d8 ees) | f2( d'4)~ | 
         d( ees a,) | bes2.~ | bes4 
         \bar "|." 
+    }
+}
+
+%R[e ^]ves de printemps (Lamothe, Georges)
+\new Staff {
+    \clef treble \time 3/4 \key g \major 
+    \relative c'' {
+        \tempo "Brioso"
+        d4.\mf d8 d4 | d c8( b a g) | \tuplet 3/2 {g8( a g} fis4) fis | 
+        fis2. | c'4. c8 c4 | c b8( a g fis) | \tuplet 3/2 {e8( fis e} d4) d | 
+        d4 cis8( d g b) | d4. d8 d4 | d4 c8( b a g) | \tuplet 3/2 {fis8( g fis} e4) e | 
+        e'2 e,4 | d8( cis d e fis g | a b c4. fis,8 a4-.) g8( fis g a) g4 r r \bar "|."
     }
 }
