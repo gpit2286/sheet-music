@@ -56,3 +56,12 @@
         c16( b) a g g8 \bar "|." 
     }
 }
+
+%L’Esprit français, Op.182 (Waldteufel, Emile)
+\new Staff {
+    \clef bass \key g \major \time 2/4 
+    \relative c {
+        \partial 8 {d8} g4. d8 | a'4. d,8 | b'8 d d e | e a, a b | 
+        b4. g8 | g4. fis8 | fis e e a | a d, d \bar "|." 
+    }
+}
