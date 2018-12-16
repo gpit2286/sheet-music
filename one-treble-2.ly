@@ -33,3 +33,26 @@
         f c' ees | d g f | bes, a g | c e d | c bes g f4 \bar "|." 
     }
 }
+
+%2 Lieder, Op.6 (Reiter, Ernst Michael) 
+\new Staff {
+    \clef treble \time 6/8 \key g \major 
+    \relative c' {
+        \tempo "Andante con moto." 
+        \partial 8 {d8\p(} | b'4) b8 b( c cis) | d4.( a4 b8) | 
+        c8( b c) e( d c) | c4.( b8) r g | c4-> c8 b4-> b8 e4.( d8) r d,8 | 
+        c'4 c8 b4 b8 g4 \bar "|."
+    }
+}
+
+%6 String Trios, Op.2 (Stumpf, Johann Christian) 
+\new Staff {
+    \clef treble \key g \major \time 2/4 
+    \relative c' {
+        \tempo "Andante" 
+        \partial 8 {d8\f} | g g, r16 g' b g | a8 d, r16 a' c a | 
+        b32( c d e) d8 r g\p | g16( fis) fis( e) e( d) d( c) | 
+        c32\f( b) e( d) d8 r e\p | e16( d) d( c) c( b) b( a) | 
+        c16( b) a g g8 \bar "|." 
+    }
+}
