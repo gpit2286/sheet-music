@@ -183,8 +183,7 @@
 }
 
 %Voss, Charles
-%Nouveautés du Jour, Op.245
-
+%Nouveaut[e']s du Jour, Op.245
 \new Staff {
   \clef treble \time 3/4 \key ees \major 
   \relative c'' {
@@ -192,8 +191,15 @@
     \partial 4 {bes8. ees16} ees4.-> d8 g8. f16 | ees4 ees-> ees-> | 
     ees4. bes8 bes8. aes16 | aes4 g g8. c16 | c4 bes g8. ees'16 | 
     ees4 d g,8. g'16 | g4. ees8 g8. ees16 | ees2. \bar "|."
-
-
   }
 
+}
+
+% Handel 
+\new Staff {
+  \clef bass \time 4/4 \key c \minor
+  \relative c {
+    \tempo "Mächtig" 
+    \partial 4 {c8\mf d} 
+  }
 }
