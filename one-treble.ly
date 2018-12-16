@@ -199,7 +199,38 @@
 \new Staff {
   \clef bass \time 4/4 \key c \minor
   \relative c {
-    \tempo "Mächtig" 
-    \partial 4 {c8\mf d} 
+    \tempo "M[a umlat]chtig" 
+    \partial 4 {c8\mf d} | ees4 c g' c | c-> bes2 aes8 g | aes g f ees f ees d c | 
+    g'2. c,8 ees | ees4 c g' c | c-> bes2 aes8 g | aes g f ees f ees d c | c2. \bar "|." 
   }
 }
+
+% Gaelic Melody 
+\new Staff {
+  \clef treble \time 9/8 \key bes \major 
+  \relative c' {
+  \partial 4. {bes8 d f} bes4. c4. a8 g f | g4. f4. bes,8 c d | f4. g4. f8 d bes | 
+  c2. f8 d f | bes4. g f8 d bes | bes4. c d8 c d | f4. g4. c,8 d c | bes2. \bar "|."
+  }
+}
+
+% Purcell 
+\new Staff {
+  \clef treble \time 3/4 \key d \major 
+  \relative c' {
+    \tempo "Andante"
+    fis4 a2 | fis4 d2 | e4 fis2 | g2 e4 | 
+    fis4 g2 | e2 a4 | g4 e2 | d2. \bar "|."
+  }
+}
+
+%Clementi
+\new Staff {
+  \clef treble \time 2/2 \key c \major
+  \relative c' {
+    \tempo "Allegro"
+    c4\p e8 c g4 g | c4 e8 c g4 g' | f8 e d c b c b c | d c b a g4 r | 
+    c4_\markup{\italic "cresc."} g8 c e4 e | e4 c8 e g4 c\f | g4 f e d | c r r2 \bar "|."
+  }
+}
+
