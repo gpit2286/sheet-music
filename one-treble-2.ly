@@ -153,3 +153,14 @@
         f4. c8 a' f | e4 d bes8 bes | c4. bes8 a g | f2 \bar "|." 
     }
 }
+
+% Fantaisie (Meyerbeer, Giacomo)
+\new Staff {
+    \clef treble \key f \major \time 4/4 
+    \relative c' {
+        \tempo "Allegretto grazioso ben moderato" 
+        \partial 2 {f4 e} | d4 e8 e f4 g | a f8 f c'4 a | c a bes d | 
+        c r8 c8 f4 e | d c bes8 a bes c | a a c4 f e | d4 c bes8 a bes c | a a c4 a c | 
+        a d c b | g'2 r8 e f d | c g e'2 d4 | c2 \bar "|."
+    }
+}
