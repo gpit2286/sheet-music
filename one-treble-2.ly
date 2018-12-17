@@ -164,3 +164,14 @@
         a d c b | g'2 r8 e f d | c g e'2 d4 | c2 \bar "|."
     }
 }
+
+% Serenade in E-flat major, K.375 (Mozart, Wolfgang Amadeus)
+\new Staff {
+    \clef treble \key ees \major \time 2/2 
+    \relative c'' {
+        \tempo "Adagio." 
+        bes2\p ees4. ees8 | ees8( g16 f) f4 r2 | bes,2 f'4. f8 | f( aes16 g) g4 r2 | 
+        aes4.( ees8) ees4.( d16 c) | bes4( g') f8( ees d c) | bes2.~ bes16 aes( g aes) | 
+        g8 g'( f ees d c bes aes) | g4 r4 r2 \bar "|." 
+    }
+}
