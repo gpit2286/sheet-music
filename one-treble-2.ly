@@ -57,7 +57,7 @@
     }
 }
 
-%LâEsprit franÃ§ais, Op.182 (Waldteufel, Emile)
+%LÃ¢ÂÂEsprit franÃÂ§ais, Op.182 (Waldteufel, Emile)
 \new Staff {
     \clef bass \key g \major \time 2/4 
     \relative c {
@@ -75,7 +75,7 @@
     }
 }
 
-%Polish Mass in F major, Op.77 (Elsner, JÃ³zef)
+%Polish Mass in F major, Op.77 (Elsner, JÃÂ³zef)
 \new Staff {
     \clef bass \time 2/4 \key f \major 
     \relative c {
@@ -141,5 +141,15 @@
         b2 | e4( cis) b4.( gis8) | b2 | b8 gis'4 a8 | gis4( fis) | b2 | gis | 
         b, | e4( cis) | b4.( gis8) | b2 | b8 gis'4 a8 | gis4( fis) | e8 r b' r | 
         b r e, r \bar "|."
+    }
+}
+
+% Meditation, Op.1 (Prisovsky, Vasily)
+\new Staff {
+    \clef treble \time 3/4 \key f \major
+    \relative c'' {
+        \tempo "Andante"
+        \partial 4 {a8 c} | f4. e8 d c | c4 bes g8 bes | e4. d8 c bes | a2 a8 c | 
+        f4. c8 a' f | e4 d bes8 bes | c4. bes8 a g | f2 \bar "|." 
     }
 }
