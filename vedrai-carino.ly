@@ -42,5 +42,12 @@
         e16\trill( d32 e f8) d-. | d4( e16) r 
       }
     }
+    \new Staff \with {instrumentName="Alto"} {
+      \relative c' {
+        \time 3/8 \clef alto \key c \major 
+        c4._\markup{\italic "mezza voce"}~ | c | d,4( e8) | f16( g a b c8) | R4. | 
+        g4.~ | g4 g'8-. | g4~ g16 r 
+      }
+    }
   >>
 }
