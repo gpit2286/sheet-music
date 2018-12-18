@@ -3,6 +3,7 @@
     \new Staff \with {instrumentName = "Flute"} {
       \relative c''' {
         \time 3/8 \clef treble \key c \major
+        \tempo "Grazioso"
         R4.*6 | r4 <g b>8\p | <g b>4( <g c>16) r16 | 
       }
     }
@@ -31,6 +32,14 @@
         c8-._\markup{\italic "mezza voce"}( c-. c-.) | \grace {c32( d)} e8. d16 c8 | 
         b8-. b( c) | b( a\trill g) | c(-. c-. c-.) | \grace {c32( d)} e8. d16 c8 | 
         c16\trill( b32 c d8) b-. | b4( c16) r 
+      }
+    }
+    \new Staff \with {instrumentName="Vl II"} {
+      \relative c' {
+        \time 3/8 \clef treble \key c \major
+        e8_\markup{\italic "mezza voce"}-.( e-. e-.) | \grace{e32( f)} g8. f16 e8 | 
+        f4( g8) | g8( f\trill e) | e8-.( e-. e-.) | \grace {e32( f)} g8. f16 e8 | 
+        e16\trill( d32 e f8) d-. | d4( e16) r 
       }
     }
   >>
