@@ -58,6 +58,13 @@
         \time 6/8 
         e,-> e' e, e' b,8-> r a16-> a' a, a' 
         \time 2/4 
+        a,16 a' a, a' c,-> c' c, c' 
+        \time 6/8 
+        b,16-> b' b, b' g,8-> r a16-> a' a, a' | 
+        \time 2/8 
+        a, a' a, a' 
+        \time 6/8 
+        c,16-> c' c, c' b,-> b' b, b' e,,8-> r  
 
       }
     }
