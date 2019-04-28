@@ -13,6 +13,9 @@
     <c a'>4 <bes g'> <bes g'> <a f'> | 
     <a' c>2 <a c> | 
     <f a>4 <g bes>8 <a c> <bes d>2 | 
+    c4 a8 f c4 <a f'>8 <bes g'> | 
+    <c a'>4 <bes g'> <bes g'> <a f'> | 
+    <e' c'>4 <e g>8 <e g> <f a>4 <e g> | 
     
     }
   }
