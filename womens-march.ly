@@ -9,7 +9,7 @@
     \clef treble \time 4/4 \key f \major 
     \relative c'' {
     <a c>2 <a c> | 
-    <f a>4 <g bes>8 <a c> <a c>2 | 
+    <f a>4 <g bes>8 <a c> <bes d>2 | 
     c4 a8 f c4 <a f'>8 <bes g'> |
     <c a'>4 <bes g'> <bes g'> <a f'> | 
     <a' c>2 <a c> | 
@@ -32,11 +32,16 @@
     <f c'>2 <f c'> | 
     <f a>4 <g bes>8 <a c> <bes d>2 | 
     c4 a8 f c4 <c f>8 <c e> | 
-    <c a'>4 <c g'> <f, f'> <f f'> | 
+    <c a'>4 <c g'> <c f> <f, f'> | 
     <f' c'>2 <f c'> | 
     <f a>4 <g bes>8 <a c> <bes d>2 | 
     c4 a8 f c4 <c f>8 <c e> | 
-    <c a'>4 <c g'> <f, f'> <f f'> |
+    <c a'>4 <c g'> <c f> <f, f'> |
+    <c' g'>4 <c c'>8 <c c'> <f c'>4 <c g'> | 
+    <c g'>4 <c c'>8 <c c'> <g' d'>4 <d c'> | 
+    <g bes> <f? a> <c c'>4. <ees c'>8 |  
+    <ees f> <d f> <c g'> <bes g'> <c c'>2 | 
+
 
 
   }
