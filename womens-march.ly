@@ -21,10 +21,37 @@
           a4 bes8 c d2 | 
           c4 a8 f c4 f8 g | 
           a4 g g f | 
+          c'4 g8 g a4 g | 
+          c4 g8 g bes4 a | 
+          bes4 c ees4. c8 | 
+          a8( bes) c d g,2 | 
+          c2 c | 
+          a4 bes8 c d2 | 
+          c4 a8 f c4 f8 g | 
+          a4 g f2 
+          \bar "|."
         }
         }
         \new Voice="two" {
-
+          \stemDown 
+          \relative c' {
+            f2 f | 
+            f4 g8 a bes2 | 
+            c4 a8 f c4 a8 bes | 
+            c4 bes bes a | 
+            f'2 f | 
+            f4 g8 a bes2 | 
+            c4 a8 f c4 a8 bes | 
+            c4 bes bes a | 
+            g'4 c,8 c c4 bes | 
+            g'4 c,8 c d4 c | 
+            d4 c c4. c8 | 
+            f4 f8 f g2 | 
+            f2 f | 
+            f4 g8 a bes2 | 
+            c4 a8 f c4 a8 bes | 
+            c4 bes a2 
+          }
         }
         
         >>
