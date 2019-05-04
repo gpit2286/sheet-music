@@ -17,10 +17,10 @@
     <f a>4 <g bes>8 <a c> <bes d>2 | 
     c4 a8 f c4 <a f'>8 <bes g'> | 
     <c a'>4 <bes g'> <bes g'> <a f'> | 
-    <e' c'>4 <e g>8 <e g> <f a>4 <e g> | 
-    <e c'>4 <e g>8 <e g> <g bes>4 <fis a> | 
-    <g bes> <a c> <g ees'>4. <g c>8 | 
-    <f a>8( <g bes>) <a c> <bes d> <e,? g>2 | 
+    c'4 g8 g a4 g  | 
+    c4 g8 g bes4 a | 
+    bes4 c ees4. c8  | 
+    a8 bes c d g,2 | 
     <a c>2 <a c> |
     <f a>4 <g bes>8 <a c> <bes d>2 | 
     c4 a8 f c4 <c f>8 <c g'> |
