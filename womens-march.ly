@@ -88,8 +88,8 @@
     c4 a8 f c4 <c f>8 <c e> | 
     <c f>4 <c e> <c f> <f, f'> |
     <c' g'>4 <e g>8 <e g>8 <c a'>4 <c g'> | 
-    <c g'>4 <e g>8 <e g> g f | 
-    d4 e c4. a8  |  
+    <c g'>4 <e g>8 <e g> <g bes>4 <f a> | 
+    <d bes'>4 <e a> <c a'>4. <a g'>8  |  
     f4 a8 bes c2 | 
     <f c'>2 <f c'> | 
     <f a>4 <g bes>8 <a c> <bes d>2 | 
