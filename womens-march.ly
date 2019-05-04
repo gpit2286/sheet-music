@@ -17,8 +17,8 @@
     <f a>4 <g bes>8 <a c> <bes d>2 | 
     c4 a8 f c4 <a f'>8 <bes g'> | 
     <c a'>4 <bes g'> <bes g'> <a f'> | 
-    <e' c'>4 <e g>8 <e g> <e a>4 <e g>  | 
-    <e c'>4 <e g>8 <e g> <e bes'>4 <d a'> | 
+    <e' c'>4 <e g>8 <e g> <f a>4 <e g>  | 
+    <e c'>4 <e g>8 <e g> <d bes'>4 <d a'> | 
     bes4 c ees4. c8  | 
     a8 bes c d g,2 | 
     <a c>2 <a c> |
