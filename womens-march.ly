@@ -19,8 +19,8 @@
     <c a'>4 <bes g'> <bes g'> <a f'> | 
     <e' c'>4 <e g>8 <e g> <f a>4 <e g>  | 
     <e c'>4 <e g>8 <e g> <d bes'>4 <d a'> | 
-    <f bes>4 <g c> <g ees'>4. <a c>8  | 
-    <f a>8 <f bes> <a c> <g d'> <e g>2 | 
+    <f bes>4 <e c'> <ees ees'>4. <e c'>8  | 
+    <f a>8 <g bes> <a c> <g d'> <e g>2 | 
     <a c>2 <a c> |
     <f a>4 <g bes>8 <a c> <bes d>2 | 
     c4 a8 f c4 <c f>8 <c g'> |
@@ -87,8 +87,8 @@
     <f a>4 <g bes>8 <a c> <bes d>2 | 
     c4 a8 f c4 <c f>8 <c e> | 
     <c f>4 <c e> <c f> <f, f'> |
-    c'4 e c2 | 
-    c4 e g f | 
+    <c' g'>4 <e g>8 <e g>8 <c a'>4 <c g'> | 
+    <c g'>4 <e g>8 <e g> g f | 
     d4 e c4. a8  |  
     f4 a8 bes c2 | 
     <f c'>2 <f c'> | 
