@@ -81,7 +81,7 @@
       e4 e8 e g4 d'8( c) | 
       bes4 a c4. c8 | 
       a4 a8 a e2 | 
-      g2 a | 
+      a2 a | 
       a4 a8 a f2 | 
       c'4 a8 f c4 f8 f | 
       f4 e f2
@@ -98,7 +98,7 @@
       c4 c c f, | 
       c'4 c8 c8 c4 c4 | 
       c4 c4 d d4 | 
-      g4 e ees4. c8 | 
+      g4 fis ees4. c8 | 
       f4 f8 f c2 | 
       f2 e | 
       d4 d8 c bes2 | 
