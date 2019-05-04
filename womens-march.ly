@@ -83,7 +83,7 @@
     \new Voice="up" {
     \stemUp
       a'2 a | 
-      a4 a8 f2 | 
+      a4 a8 g8 f2 | 
       f4 f8 f f4 f8 f | 
       f4 g e f | 
     }
