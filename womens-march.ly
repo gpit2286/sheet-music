@@ -8,28 +8,85 @@
   \new Staff {
     \new Voice = "one" {
     \clef treble \time 4/4 \key f \major 
-      \relative c'' {
-    <a c>2 <a c> | 
-    <f a>4 <g bes>8 <a c> <bes d>2 | 
-    c4 a8 f c4 <a f'>8 <bes g'> |
-    <c a'>4 <bes g'> <bes g'> <a f'> | 
-    <a' c>2 <a c> | 
-    <f a>4 <g bes>8 <a c> <bes d>2 | 
-    c4 a8 f c4 <a f'>8 <bes g'> | 
-    <c a'>4 <bes g'> <bes g'> <a f'> | 
-    <e' c'>4 <e g>8 <e g> <f a>4 <e g>  | 
-    <e c'>4 <e g>8 <e g> <d bes'>4 <d a'> | 
-    <f bes>4 <e c'> <ees ees'>4. <e c'>8  | 
-    <f a>8 <g bes> <a c> <g d'> <e g>2 | 
-    <a c>2 <a c> |
-    <f a>4 <g bes>8 <a c> <bes d>2 | 
-    c4 a8 f c4 <c f>8 <c g'> |
-    <c a'>4 <bes g'> <a f'>2 \bar "||"
-      }
+      
+        <<
+        \new Voice="one" {
+        \relative c'' {
+          \stemUp
+          c2 c | 
+          a4 bes8 c d2 | 
+          c4 a8 f c4 f8 g | 
+          a4 g g f | 
+          c'2 c | 
+          a4 bes8 c d2 | 
+          c4 a8 f c4 f8 g | 
+          a4 g g f | 
+        }
+        }
+        \new Voice="two" {
+
+        }
+        
+        >>
+      
+      
     }
    
   }
-   \new Lyrics \lyricsto "one" {
+   
+
+
+\new Staff {
+  \clef bass \time 4/4 \key f \major
+  \relative c {
+    <<
+    \new Voice="three" {
+    \stemUp
+      a'2 a | 
+      a4 a8 g8 f2 | 
+      c'4 a8 f c4 f8 f
+      f4 g e f | 
+      a2 a | 
+      a4 a8 a f2 |
+      c'4 a8 f c4 f8 f | 
+
+
+    }
+    \new Voice="four" {
+    \stemDown
+      f2 e | 
+      d4 d8 c8 bes2 | 
+      c'4 a8 f c4 c8 c | 
+      c4 c c f | 
+      f2 e | 
+      d4 d8 c bes2 | 
+      c'4 a8 f c4 c8 c | 
+      c4 c c f | 
+      c4 c8 c8 c4 c4 | 
+      c4 c4 d d'8( c) | 
+      bes8( c) bes( a) g( f ees) d | 
+      c2 c'8( bes a g) | 
+      f2 e | 
+      d4 d8 c bes2 | 
+      c'4 a8 f c4 c8 c | 
+      c4 c f2  
+      
+      
+          }
+    >>
+
+
+  }
+}
+>>
+  \layout {}
+  \midi {}
+}
+
+
+
+%{
+\new Lyrics \lyricsto "one" {
    \set stanza = #"1. "
       Shout, shout, up with your song! 
       Cry with the wind, for the dawn is brea -- king;
@@ -74,46 +131,4 @@
       March, march ma -- ny as one 
       Shoul -- der to shoul -- der and firend to friend. 
     }
-
-
-\new Staff {
-  \clef bass \time 4/4 \key f \major
-  \relative c {
-    <<
-    \new Voice="up" {
-    \stemUp
-      a'2 a | 
-      a4 a8 g8 f2 | 
-      f4 f8 f f4 f8 f | 
-      f4 g e f | 
-    }
-    \new Voice="down" {
-    \stemDown
-      f2 e | 
-      d4 d8 c8 bes2 | 
-      c'4 a8 f c4 c8 c | 
-      c4 c c f | 
-      f2 e | 
-      d4 d8 c bes2 | 
-      c'4 a8 f c4 c8 c | 
-      c4 c c f | 
-      c4 c8 c8 c4 c4 | 
-      c4 c4 d d'8( c) | 
-      bes8( c) bes( a) g( f ees) d | 
-      c2 c'8( bes a g) | 
-      f2 e | 
-      d4 d8 c bes2 | 
-      c'4 a8 f c4 c8 c | 
-      c4 c f2  
-      
-      
-          }
-    >>
-
-
-  }
-}
->>
-  \layout {}
-  \midi {}
-}
+    %}
