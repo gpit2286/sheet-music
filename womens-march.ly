@@ -43,9 +43,9 @@
             f4 g8 a bes2 | 
             c4 a8 f c4 a8 bes | 
             c4 bes bes a | 
-            g'4 c,8 c c4 bes | 
-            g'4 c,8 c d4 c | 
-            d4 c c4. c8 | 
+            g'4 c,8 c c4 c | 
+            g'4 c,8 c d4 fis | 
+            g4 fis g4. g8 | 
             f4 f8 f g2 | 
             f2 f | 
             f4 g8 a bes2 | 
@@ -70,18 +70,18 @@
     \new Voice="three" {
     \stemUp
       a'2 a | 
-      a4 a8 g8 f2 | 
+      a4 a8 a8 f2 | 
       c'4 a8 f c4 f8 f
       f4 g e f | 
       a2 a | 
       a4 a8 a f2 |
       c'4 a8 f c4 f8 f | 
       f4 g e f | 
-      e4 e8 e f4 c | 
-      e4 e8 e d4 fis | 
-      g fis g4. g8 | 
-      f4 f8 f e2 | 
-      a2 a | 
+      e4 e8 e f4 e | 
+      e4 e8 e g4 d'8( c) | 
+      bes4 a c4. c8 | 
+      a4 a8 a e2 | 
+      g2 a | 
       a4 a8 a f2 | 
       c'4 a8 f c4 f8 f | 
       f4 e f2
@@ -91,15 +91,15 @@
       f2 e | 
       d4 d8 c8 bes2 | 
       c'4 a8 f c4 c8 c | 
-      c4 c c f | 
-      f2 e | 
+      c4 c c f, | 
+      f'2 e | 
       d4 d8 c bes2 | 
       c'4 a8 f c4 c8 c | 
-      c4 c c f | 
-      c4 c8 c8 c4 c4 | 
-      c4 c4 d d8( c) | 
-      bes8( c) bes( a) g( f ees) d | 
-      c2 c'8( bes a g) | 
+      c4 c c f, | 
+      c'4 c8 c8 c4 c4 | 
+      c4 c4 d d4 | 
+      g4 e ees4. c8 | 
+      f4 f8 f c2 | 
       f2 e | 
       d4 d8 c bes2 | 
       c'4 a8 f c4 c8 c | 
