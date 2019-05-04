@@ -87,9 +87,9 @@
     <f a>4 <g bes>8 <a c> <bes d>2 | 
     c4 a8 f c4 <c f>8 <c e> | 
     <c f>4 <c e> <c f> <f, f'> |
-    c'4 d c2 | 
-    e4 g g f | 
-    d2 c4 a  |  
+    c'4 e c2 | 
+    e4 bes g' f | 
+    d4 e c4 a  |  
     c4 a8 bes c2 | 
     <f c'>2 <f c'> | 
     <f a>4 <g bes>8 <a c> <bes d>2 | 
