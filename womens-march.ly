@@ -76,8 +76,15 @@
       a2 a | 
       a4 a8 a f2 |
       c'4 a8 f c4 f8 f | 
-
-
+      f4 g e f | 
+      e4 e8 e f4 c | 
+      e4 e8 e d4 fis | 
+      g fis g4. g8 | 
+      f4 f8 f e2 | 
+      a2 a | 
+      a4 a8 a f2 | 
+      c'4 a8 f c4 f8 f | 
+      f4 e f2
     }
     \new Voice="four" {
     \stemDown
@@ -90,7 +97,7 @@
       c'4 a8 f c4 c8 c | 
       c4 c c f | 
       c4 c8 c8 c4 c4 | 
-      c4 c4 d d'8( c) | 
+      c4 c4 d d8( c) | 
       bes8( c) bes( a) g( f ees) d | 
       c2 c'8( bes a g) | 
       f2 e | 
