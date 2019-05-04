@@ -81,9 +81,14 @@
   \relative c {
     <<
     \new Voice="up" {
-
+    \stemUp
+      a'2 a | 
+      a4 a8 f2 | 
+      f4 f8 f f4 f8 f | 
+      f4 g e f | 
     }
     \new Voice="down" {
+    \stemDown
       f2 e | 
       d4 d8 c8 bes2 | 
       c'4 a8 f c4 c8 c | 
