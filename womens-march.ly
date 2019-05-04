@@ -79,22 +79,31 @@
 \new Staff {
   \clef bass \time 4/4 \key f \major
   \relative c {
-    <f c'>2 <f c'> | 
-    <f a>4 <g bes>8 <a c> <bes d>2 | 
-    c4 a8 f c4 <c f>8 <c e> | 
-    <c f>4 <c e> <c f> <f, f'> | 
-    <f' c'>2 <f c'> | 
-    <f a>4 <g bes>8 <a c> <bes d>2 | 
-    c4 a8 f c4 <c f>8 <c e> | 
-    <c f>4 <c e> <c f> <f, f'> |
-    <c' g'>4 <e g>8 <e g>8 <c a'>4 <c g'> | 
-    <c g'>4 <e g>8 <e g> <g bes>4 <f a> | 
-    <d bes'>4 <e a> <c a'>4. <a g'>8  |  
-    f4 a8 bes c2 | 
-    <f c'>2 <f c'> | 
-    <f a>4 <g bes>8 <a c> <bes d>2 | 
-    c4 a8 f c4 <c f>8 <c e> | 
-    <c a'>4 <c g'> <f, f'>2 | 
+    <<
+    \new Voice="up" {
+
+    }
+    \new Voice="down" {
+      f2 e | 
+      d4 d8 c8 bes2 | 
+      c'4 a8 f c4 c8 c | 
+      c4 c c f | 
+      f2 e | 
+      d4 c8 c bes2 | 
+      c'4 a8 f c4 c8 c | 
+      c4 c c f | 
+      c4 c8 c8 c4 c4 | 
+      c4 c4 d d'8( c) | 
+      bes8( c) bes( a) g( f ees) d | 
+      c2 c'8( bes a g) | 
+      f2 e | 
+      d4 d8 c bes2 | 
+      c'4 a8 f c4 c8 c | 
+      c4 c f2  
+      
+      
+          }
+    >>
 
 
   }
