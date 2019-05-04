@@ -89,7 +89,7 @@
       c'4 a8 f c4 c8 c | 
       c4 c c f | 
       f2 e | 
-      d4 c8 c bes2 | 
+      d4 d8 c bes2 | 
       c'4 a8 f c4 c8 c | 
       c4 c c f | 
       c4 c8 c8 c4 c4 | 
