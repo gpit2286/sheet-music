@@ -1,6 +1,49 @@
 
 \version "2.18.2"
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Default Settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+defaultStaff = {
+  \compressFullBarRests   % Compress Full measure rests
+}
+
+%% Define Layout Defaults
+defaultLayout = \layout {
+  \context {
+    \Staff
+    \accidentalStyle piano
+  }
+
+  % Move bar numbers over clef as opposed to splitting staff beginning
+  \context {
+    \Score
+    \override BarNumber.font-shape = #'italic
+    \override BarNumber.font-size =  -2
+    \override BarNumber.padding  = 2.2
+    \override BarNumber.self-alignment-X = #left
+  }
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%    Markup Scripts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ins - Define instrument headings
+#(define-markup-command (ins layout props args) (markup?)
+  "List the instruments currently playing"
+  (interpret-markup layout props
+    (markup #:line
+      (#:fontsize -3
+        (make-column-markup
+          (map (lambda (x) (markup x))
+            (string-split args #\space)
+          )
+        )
+      )
+    )
+  )
+)
 
 \header {
   title = "Dvorak Symphony 7, Mvt. 2"
