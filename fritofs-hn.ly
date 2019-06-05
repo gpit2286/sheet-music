@@ -79,7 +79,7 @@
       bes2\ff( c4 d) | 
       r4 bes bes bes | 
       c2 d4( ees | 
-      bes2) d4-> \tuplet 3/2 {e8-> f-> e->} | 
+      bes2) d4-> \tuplet 3/2 {ees8-> f-> ees->} | 
       bes4 bes4( c bes) | 
       bes2. r4 | 
       r4 c2\fz( f,4) | 
@@ -88,7 +88,7 @@
       bes2\ff( c4 d) | 
       r4 bes bes bes | 
       c2 d4( ees | 
-      bes2) d4-> \tuplet 3/2 {e8-> f-> e->} | 
+      bes2) d4-> \tuplet 3/2 {ees8-> f-> ees->} | 
       bes4 bes4( c bes) | 
       bes2. r4 | 
       r4 c2\fz( f,4 | 
