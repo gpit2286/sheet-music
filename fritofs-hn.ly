@@ -1,16 +1,17 @@
+#(set-global-staff-size 16)
+
+\paper {
+  #(set-paper-size "letter")
+}
+
+\book {
+
 \header {
   title = "Fritofs Sage"
   composer = "Andree"
   instrument = "Alt Horn" 
   tagline = ##f
 }
-
-\paper {
-  #(set-paper-size "letter")
-}
-
-#(set-global-staff-size 16)
-
 
 \score {
   \new StaffGroup <<
@@ -123,8 +124,10 @@
 }
 
 \score {
+  
   \new StaffGroup <<
     \new Staff \with { instrumentName = #"1" } \relative c'' { 
+    \set Score.currentBarNumber = #129
     \compressFullBarRests
       \clef treble \key c \major \time 4/4 
       \mark "L"
@@ -176,10 +179,101 @@
   
   >>
 
-  
-
   \layout {
     
   }
   \midi {}
+}
+
+}
+
+\book {
+
+\header {
+  title = "Fritofs Sage"
+  composer = "Andree"
+  instrument = "Alt Strings" 
+  tagline = ##f
+}
+
+\score {
+  \new StaffGroup <<
+    \new PianoStaff \with { instrumentName = #"Viola" } <<
+    \new Staff \relative c' { 
+      \mark "O" \clef alto \time 4/4 \key ees \major
+      \set Score.currentBarNumber = #165
+      <g ees'>2:32 <g g'>:32 | 
+      <aes f'>:32 <d f>:32 | 
+      <g, ees'>:32 <g g'>4:32 <g ees'>:32 | 
+      <a ees'>2:32 <a ees'>8\ff <a ees'>-> <g ees'>-> <a ees'>-> | 
+      <bes ees>4:8 <g ees'>4:8\cresc <g ees'>2:8 | 
+      <f ees'>2:8 <f d'>2:8\! | 
+      << {
+        <g ees'>2:32 <g ees'>2:32 | 
+      } \\ {
+        s4 s4\> s4. s8\!
+      } >>
+      
+      <g ees'>2\!:32~ <g ees'>4\pp\fermata r4 \bar "|."
+    }
+
+    \new Staff \relative c' {
+      \clef "alto" \time 4/4 \key ees \major 
+      <g ees'>2:32 <g g'>:32 | 
+      <aes f'>:32 <d f>:32 | 
+      <g, ees'>:32 <g g'>4:32 <g ees'>:32 | 
+      <a ees'>2:32 <a ees'>8\ff <a ees'>-> <g ees'>-> <a ees'>-> | 
+      <bes ees>4:32 <g ees'>4:32\cresc <g ees'>2:32 | 
+      <f ees'>2:32 <f d'>2:32\! | 
+      << {
+        <g ees'>2:32 <g ees'>2:32 | 
+      } \\ {
+        s4 s4\> s4. s8\!
+      } >>
+      
+      <g ees'>2\!:32~ <g ees'>4\pp\fermata r4 \bar "|."
+
+    }
+
+    >>
+
+    \new PianoStaff \with { instrumentName = #"Cello" } <<
+    \new Staff \relative c { 
+      \mark "O" \clef bass \time 4/4 \key ees \major
+      \set Score.currentBarNumber = #165
+      <bes ees>2:32 <bes bes'>2:32 | 
+      <bes bes'>2:32 <d bes'>2:32 | 
+      \clef tenor bes'4.( c8) d( ees f g) | 
+      g8( f) g4.\ff  f8-- ees-- c-- | 
+      ees4( bes) \clef bass <bes, g'>2:32\cresc | 
+      <bes a'>2:32 <bes aes'>2:32\! | 
+      << {
+        <bes g'>2:32 <bes g'>2:32
+      } \\ {
+        s4 s4\> s4. s8\!
+      }>>
+      <bes g'>2:32~ <bes g'>4\pp\fermata r4
+
+    }
+
+    \new Staff \relative c {
+      \clef bass \time 4/4 \key ees \major 
+      <bes ees>2:32 <bes bes'>2:32 | 
+      <bes bes'>2:32 <d bes'>2:32 |
+      bes2:32 bes2:32 | 
+      <c a'>2:32 <c a'>8 <c a'>-> <c a'>-> <c a'>-> | 
+      
+
+
+    }
+
+    >>
+  >>
+
+\layout {
+  ragged-right = ##f
+}
+}
+
+
 }
