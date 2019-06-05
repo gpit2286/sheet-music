@@ -261,10 +261,16 @@
       <bes ees>2:32 <bes bes'>2:32 | 
       <bes bes'>2:32 <d bes'>2:32 |
       bes2:32 bes2:32 | 
-      <c a'>2:32 <c a'>8 <c a'>-> <c a'>-> <c a'>-> | 
-      
+      <c a'>2:32 <c a'>8\ff <c a'>8-> <c a'>-> <c a'>-> | 
+      <bes g'>2:8 <bes g'>2:8\cresc | 
+      <bes a'>2:8 <bes aes'>2:8\! | 
+      << {
+        ees,2:32 ees2:32 
+      } \\ {
+        s4 s4\> s4. s8\!
+      }>>
 
-
+      ees2:32~ ees4\pp\fermata r4 
     }
 
     >>
