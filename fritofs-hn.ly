@@ -52,9 +52,13 @@
       r8 des8\mp \tuplet 3/2 {des8->\< ges-> bes->} bes4\! r4 | 
     }
 
-    \new Staff \with { instrumentName = #"3" } \relative c { 
+    \new Staff \with { instrumentName = #"3" } \relative c' { 
       \clef treble \key c \major \time 4/4 
-
+      f2\ff( ees4 f) | 
+      r4 ees4 ees ees | 
+      ees2 f4( ges | 
+      ges f) f4-> \tuplet 3/2 { g8-> a-> g-> } 
+      d4
     }
 
     \new Staff \with { instrumentName = #"4" } \relative c { 
