@@ -4,6 +4,7 @@
   #(set-paper-size "letter")
 }
 
+
 \book {
 
 \header {
@@ -114,7 +115,7 @@
   \layout {
     
   }
-  \midi {}
+  
 }
 
 \markup {
@@ -182,7 +183,7 @@
   \layout {
     
   }
-  \midi {}
+  
 }
 
 }
@@ -295,6 +296,7 @@
 \layout {
   ragged-right = ##f
 }
+\midi {}
 }
 
 
