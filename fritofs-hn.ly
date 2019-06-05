@@ -209,7 +209,7 @@
       <bes ees>4:8 <g ees'>4:8\cresc <g ees'>2:8 | 
       <f ees'>2:8 <f d'>2:8\! | 
       << {
-        <g ees'>2:32 <g ees'>2:32 | 
+        <g ees'>2:32-> <g ees'>2:32 | 
       } \\ {
         s4 s4\> s4. s8\!
       } >>
@@ -226,7 +226,7 @@
       <bes ees>4:32 <g ees'>4:32\cresc <g ees'>2:32 | 
       <f ees'>2:32 <f d'>2:32\! | 
       << {
-        <g ees'>2:32 <g ees'>2:32 | 
+        <g ees'>2:32-> <g ees'>2:32 | 
       } \\ {
         s4 s4\> s4. s8\!
       } >>
@@ -248,7 +248,7 @@
       ees4( bes) \clef bass <bes, g'>2:32\cresc | 
       <bes a'>2:32 <bes aes'>2:32\! | 
       << {
-        <bes g'>2:32 <bes g'>2:32
+        <bes g'>2:32-> <bes g'>2:32
       } \\ {
         s4 s4\> s4. s8\!
       }>>
@@ -265,7 +265,7 @@
       <bes g'>2:8 <bes g'>2:8\cresc | 
       <bes a'>2:8 <bes aes'>2:8\! | 
       << {
-        ees,2:32 ees2:32 
+        ees,2:32-> ees2:32 
       } \\ {
         s4 s4\> s4. s8\!
       }>>
@@ -274,6 +274,22 @@
     }
 
     >>
+
+    \new Staff \with { instrumentName = #"Bass" } \relative c {
+      \clef bass \time 4/4 \key ees \major 
+      bes2:8 bes2:8 | 
+      bes2:8 bes2:8 | 
+      g2:8 g2:8 | 
+      f2:8 f8\ff f-> f-> f-> | 
+      bes2:8 bes2:8\cresc | 
+      bes2:8 bes2:8\! | 
+      << {
+        <\parenthesize ees, ees'>2-> <\parenthesize ees ees'>
+      } \\ {
+        s4 s4\> s4. s8\!
+      }>>
+      <\parenthesize ees ees'>2~ <\parenthesize ees ees'>4\pp\fermata r4 
+    }
   >>
 
 \layout {
