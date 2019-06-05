@@ -74,9 +74,25 @@
       r8 bes8\mp \tuplet 3/2 {bes8->\< des-> ges->} ges4\! r4 | 
     }
 
-    \new Staff \with { instrumentName = #"4" } \relative c { 
+    \new Staff \with { instrumentName = #"4" } \relative c' { 
       \clef treble \key c \major \time 4/4 
-
+      bes2\ff( c4 d) | 
+      r4 bes bes bes | 
+      c2 d4( ees | 
+      bes2) d4-> \tuplet 3/2 {e8-> f-> e->} | 
+      bes4 bes4( c bes) | 
+      bes2. r4 | 
+      r4 c2\fz( f,4) | 
+      f2( bes4) r4 | 
+      R1*6 | 
+      bes2\ff( c4 d) | 
+      r4 bes bes bes | 
+      c2 d4( ees | 
+      bes2) d4-> \tuplet 3/2 {e8-> f-> e->} | 
+      bes4 bes4( c bes) | 
+      bes2. r4 | 
+      r4 c2\fz( f,4 | 
+      bes2)~\> bes4\! r4 | R1*2 | 
     }
 
   >>
