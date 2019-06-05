@@ -8,7 +8,7 @@
   \new StaffGroup <<
     \new Staff \with { instrumentName = #"1" } \relative c'' { 
       \clef treble \key c \major \time 4/4 
-      d2\ff\( c4 bes4\) 
+      d2^\markup{"m. 1"}\ff\( c4 bes4\) 
       r4 bes bes\( \tuplet 3/2 {c8 d c} 
       bes2\) a4\( c | 
       c bes\) bes4-> \tuplet 3/2 {c8-> d-> c->} | 
