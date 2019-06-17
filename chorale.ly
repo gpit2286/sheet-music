@@ -3,36 +3,38 @@
   composer = "Trad/Bach"
 }
 
+tuneup = \markup \musicglyph #"arrowheads.close.11"
+tunedown = \markup \musicglyph #"arrowheads.close.1M1"
 sop = \relative c'' {
     \clef treble \time 4/4 \key d \major 
     \partial 4 {d4} | d d a8 b cis4 | 
-    d8 cis b4 a\fermata d | 
+    d8 cis b4^\tuneup  a\fermata d | 
     cis b a b | 
-    g8 fis e4 d\fermata  \bar ":|." d4 | 
-    a' b a gis | 
+    g8 fis e4^\tuneup  d\fermata  \bar ":|." d4 | 
+    a' b a gis^\tunedown | 
     a2\fermata d,4 a' | 
-    b cis d\fermata cis | 
+    b cis^\tunedown d\fermata cis | 
     d8 cis b4 a\fermata b | \break 
-    b a b8 a g4 | 
-    fis4\fermata d' cis b | 
-    a b8 a g4 fis | 
+    b a b8 a g4^\tunedown | 
+    fis4\fermata^\tuneup  d' cis b | 
+    a b8 a g4 fis^\tunedown | 
     e2 d4\fermata \bar "|."
   }
 
 alto = \relative c'' {
   \clef treble \time 4/4 \key d \major
-  a4 | d, e fis g | 
-  a gis e b' | 
+  a4^\tuneup | d, e fis g | 
+  a gis^\tunedown e^\tuneup  b' | 
   e, d cis b | 
-  d cis d d | 
-  cis d e b | 
-  cis2 d4 fis | 
-  g e fis fis | 
-  fis g e g | 
+  d cis^\tunedown d d | 
+  cis d e b^\tuneup  | 
+  cis2^\tunedown d4 fis | 
+  g e^\tuneup  fis^\tunedown fis | 
+  fis a e^\tuneup  g | 
   g dis8 e fis4 e | 
-  dis fis fis d | 
+  dis^\tunedown fis fis d | 
   fis d e d~ | 
-  d cis a
+  d^\tunedown cis^\tunedown a^\tuneup 
 }
 
 tenor = \relative c' {
@@ -41,18 +43,18 @@ tenor = \relative c' {
   \set Staff.clefTransposition = #-7
   \set Staff.middleCPosition = #1
   \set Staff.middleCClefPosition = #1 \time 4/4 \key d \major
-    fis4 | fis b, d e | 
-    fis4. e8 cis4 fis, | 
+    fis4^\tunedown | fis b, d e | 
+    fis4. e8 cis4^\tunedown fis, | 
     ais b fis' d | 
-    a g fis fis | 
+    a g^\tunedown fis^\tunedown fis | 
     a gis e e | 
-    e2 a4 d | 
-    d a a a | 
-    b8 e fis e cis4 e | 
-    d fis b, b | 
+    e2^\tuneup  a4 d | 
+    d a a^\tuneup  a | 
+    b8 e fis e cis4^\tunedown e | 
+    d fis b, b^\tuneup  | 
     b b a b | 
-    d g, e fis | 
-    b a8 g fis4 
+    d fis, e a | 
+    b^\tuneup  a8 g fis4^\tunedown 
 }
 
 bassvoice = \relative c' {
@@ -60,10 +62,10 @@ bassvoice = \relative c' {
   d4 | b g fis e | 
   d e a, b | 
   cis d8 e fis4 g | e a, d d | 
-  fis e cis e a,2 fis'4 e | 
+  fis e cis e a,2 fis'4 d | 
   g a d, fis b,8 cis d e a,4 e' | 
   g4 fis dis e | 
-  b b fis' g d b cis d | g, a d
+  b b fis' g d b cis d | g,^\tuneup  a d
 
 
 }
