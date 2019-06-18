@@ -38,11 +38,7 @@ alto = \relative c'' {
 }
 
 tenor = \relative c' {
-    \set Staff.clefGlyph = #"clefs.G"
-  \set Staff.clefPosition = #-2
-  \set Staff.clefTransposition = #-7
-  \set Staff.middleCPosition = #1
-  \set Staff.middleCClefPosition = #1 \time 4/4 \key d \major
+    \clef bass \time 4/4 \key d \major
     fis4^\tunedown | fis b, d e | 
     fis4. e8 cis4^\tunedown fis, | 
     ais b fis' d | 
@@ -71,7 +67,9 @@ bassvoice = \relative c' {
 }
 
 \score {
-  
+  \header {
+    piece = "C instruments"
+  }
   \new StaffGroup <<
   \new Staff {
     \sop
@@ -85,6 +83,109 @@ bassvoice = \relative c' {
   \new Staff {
     \bassvoice 
   }
+  >>
+  
+
+  \layout {}
+  \midi {}
+}
+
+\pageBreak 
+
+\score {
+  \header {
+    piece = \markup {"B" \flat "instruments"}
+  }
+  \new StaffGroup <<
+  \new Staff {
+  \transpose bes c {
+    \sop
+  }
+  }
+  \new Staff {
+  \transpose bes c {
+    \alto 
+  }
+  }
+  \new Staff {
+   \transpose bes c {
+    \tenor
+  }
+  }
+  \new Staff {
+    \transpose bes c {
+    \bassvoice 
+  }
+  }
+  >>
+  
+
+  \layout {}
+  \midi {}
+}
+
+\pageBreak 
+
+\score {
+  \header {
+    piece = \markup {"E" \flat "instruments"}
+  }
+  \new StaffGroup <<
+  \new Staff {
+  \transpose ees c {
+    \sop
+  }
+  }
+  \new Staff {
+  \transpose ees c {
+    \alto 
+  }
+  }
+  \new Staff {
+   \transpose ees c {
+    \tenor
+  }
+  }
+  \new Staff {
+    \transpose ees c {
+    \bassvoice 
+  }
+  }
+  >>
+  
+
+  \layout {}
+  \midi {}
+}
+
+\pageBreak 
+
+\score {
+  \header {
+    piece = \markup {"F instruments"}
+  }
+  \new StaffGroup <<
+  \new Staff {
+  \transpose f c {
+    \sop
+  }
+  }
+  \new Staff {
+  \transpose f c {
+    \alto 
+  }
+  }
+  \new Staff {
+   \transpose f c {
+    \tenor
+  }
+  }
+  \new Staff {
+    \transpose f c {
+    \bassvoice 
+  }
+  }
+
   >>
   
 
