@@ -38,7 +38,7 @@ alto = \relative c'' {
 }
 
 tenor = \relative c' {
-    \clef bass \time 4/4 \key d \major
+    \clef treble \time 4/4 \key d \major
     fis4^\tunedown | fis b, d e | 
     fis4. e8 cis4^\tunedown fis, | 
     ais b fis' d | 
@@ -98,22 +98,22 @@ bassvoice = \relative c' {
   }
   \new StaffGroup <<
   \new Staff {
-  \transpose bes c {
+  \transpose bes c' {
     \sop
   }
   }
   \new Staff {
-  \transpose bes c {
+  \transpose bes c' {
     \alto 
   }
   }
   \new Staff {
-   \transpose bes c {
+   \transpose bes c' {
     \tenor
   }
   }
   \new Staff {
-    \transpose bes c {
+    \transpose bes c' {
     \bassvoice 
   }
   }
@@ -132,17 +132,17 @@ bassvoice = \relative c' {
   }
   \new StaffGroup <<
   \new Staff {
-  \transpose ees c {
+  \transpose ees c' {
     \sop
   }
   }
   \new Staff {
-  \transpose ees c {
+  \transpose ees c' {
     \alto 
   }
   }
   \new Staff {
-   \transpose ees c {
+   \transpose ees c' {
     \tenor
   }
   }
@@ -166,17 +166,17 @@ bassvoice = \relative c' {
   }
   \new StaffGroup <<
   \new Staff {
-  \transpose f c {
+  \transpose f c' {
     \sop
   }
   }
   \new Staff {
-  \transpose f c {
+  \transpose f c' {
     \alto 
   }
   }
   \new Staff {
-   \transpose f c {
+   \transpose f c' {
     \tenor
   }
   }
