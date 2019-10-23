@@ -21,23 +21,26 @@
 }
 
 \markup {
-  3. Draw the clef and label the SPACES 
+  3. Label the SPACES
   \vspace #2
 }
 
 \score {
   \new Staff \with {
   \remove Bar_number_engraver
-  \remove Clef_engraver
+  \remove Bar_engraver
   \override TimeSignature #'transparent = ##t
-  \override Clef #'transparent = ##t
   defaultBarType = #""
   } {
-    s1^\markup{\vspace #2 "Treble (G) Clef"} | s1^"Bass (F) Clef" | s1^"C Clef"
+    \clef treble s1 | \clef bass s1 | \clef alto s1
   }
   \layout {
-    #(layout-set-staff-size 24)
+    #(layout-set-staff-size 30)
     ragged-last = ##f
+    \context{ 
+      \Staff 
+      \override StaffSymbol #'staff-space = #(/ 30 20) 
+    }  
   }
 }
 
