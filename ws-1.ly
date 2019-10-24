@@ -16,7 +16,7 @@
 }
 
 \markup {
-  2. What is one instrument that is not in the band or orchestra? 
+  2. What is one instrument that is not our band or orchestra? 
   \vspace #2
 }
 
@@ -70,7 +70,7 @@
 }
 
 \markup {
-  4. Write the correct beat total for each equation. 
+  5. Write the correct beat total for each equation. 
 }
 
 \markup {
@@ -83,9 +83,9 @@
     }
     \hspace #2
     \column {
-      \line {a. \note #"1" #1 + \rest #"1" = }
-      \line {c. \rest #"2" + \note #"2" #1 = }
-      \line {e. \note #"2" #1 + \rest #"4" = }
+      \line {b. \note #"1" #1 + \rest #"1" = }
+      \line {d. \rest #"2" + \note #"2" #1 = }
+      \line {f. \note #"2" #1 + \rest #"4" = }
     }
     \hspace #1 
   }
@@ -93,7 +93,7 @@
 
 
 \markup {
-  5. Group the following notes in the correct places based on the time signature. 
+  6. Group the following notes in the correct places based on the time signature. 
   \vspace #2
 }
 
