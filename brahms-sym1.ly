@@ -8,7 +8,9 @@
         \clef treble \time 6/8 \key ees \major 
         <g d' f>4.~~~ <g d' f>8 r r | <g d' f>4.~~~ <g d' f>8 r r | %335 
         fis8 r r <fis b d fis>4.~~~~ | <fis b d fis>4. <g b d g>4. | %337 
-        <aes d f aes>8 r r <a d f a>4.~~~~ | <a d f a>4. 
+        <aes d f aes>8 r r <a d f a>4.~~~~ | <a d f a>4. <bes d f bes>4. | %339 
+        <b f' b>8 r r <c f aes c>4. | <aes c' aes>4. <g g' cis>4. | %341 
+        <a fis' d'>4. r4. | <b d g b>4.~~~~ <b d g b>4. | <c ees c'>4.
       }
     }
     \new Staff {
