@@ -5,8 +5,9 @@
 
 tuneup = \markup \musicglyph #"arrowheads.close.11"
 tunedown = \markup \musicglyph #"arrowheads.close.1M1"
-sop = \relative c'' {
-    \clef treble \time 4/4 \key d \major 
+sop = \transpose d f { \relative c'' {
+    
+     \clef treble \time 4/4 \key d \major 
     \partial 4 {d4} | d d a8 b cis4 | 
     d8 cis b4^\tuneup  a\fermata d | 
     cis b a b | 
@@ -18,10 +19,10 @@ sop = \relative c'' {
     b a b8 a g4^\tunedown | 
     fis4\fermata^\tuneup  d' cis b | 
     a b8 a g4 fis^\tunedown | 
-    e2 d4\fermata \bar "|."
+    e2 d4\fermata \bar "|." }
   }
 
-alto = \relative c'' {
+alto = \transpose d f { \relative c'' {
   \clef treble \time 4/4 \key d \major
   a4^\tuneup | d, e fis g | 
   a gis^\tunedown e^\tuneup  b' | 
@@ -35,9 +36,9 @@ alto = \relative c'' {
   dis^\tunedown fis fis d | 
   fis d e d~ | 
   d^\tunedown cis^\tunedown a^\tuneup 
-}
+} }
 
-tenor = \relative c' {
+tenor = \transpose d f { \relative c' {
     \clef treble \time 4/4 \key d \major
     fis4^\tunedown | fis b, d e | 
     fis4. e8 cis4^\tunedown fis, | 
@@ -50,20 +51,20 @@ tenor = \relative c' {
     d fis b, b^\tuneup  | 
     b b a b | 
     d fis, e a | 
-    b^\tuneup  a8 g fis4^\tunedown 
+    b^\tuneup  a8 g fis4^\tunedown }
 }
 
-bassvoice = \relative c' {
+bassvoice = \transpose d f, { \relative c' {
   \clef bass \time 4/4 \key d \major
   d4 | b g fis e | 
-  d e a, b | 
-  cis d8 e fis4 g | e a, d d | 
-  fis e cis e a,2 fis'4 d | 
+  d e a b | 
+  cis, d8 e fis4 g | e a d, d | 
+  fis e cis e a2 fis4 d | 
   g a d, fis b,8 cis d e a,4 e' | 
   g4 fis dis e | 
-  b b fis' g d b cis d | g,^\tuneup  a d
+  b b fis' g d b cis d | g^\tuneup  a d,
 
-
+}
 }
 
 \score {
