@@ -6,7 +6,7 @@
 \score {
   \relative c' {
     \time 3/2 \key ees \major 
-    \tempo 4 = 160 
+    \tempo 4 = 180 
     \relative c' {
       \partial 4 {ees4} 
        ees4 f g ees g aes 
