@@ -16,12 +16,19 @@
           e4 dis8 e4 fis16( gis) | gis16( fis~) fis4~ fis8 r8 b 
         } \\ {
           b,4.~b8 r8 b8 | e4 fis8 e4 e8 | b4.~ b4 b16 b | cis4 cis8 cis4 cis8 | 
-          e4.~ e8 r8 b8 
+          e4.( dis8) r8 b8 
         } >> 
         }
     }
     \new Staff {
+      \clef bass \time 6/8 \key e \major 
+      \relative c {
+        << {
+        
+        } \\ { 
 
+        } >>
+      }
     }
   >>
 
