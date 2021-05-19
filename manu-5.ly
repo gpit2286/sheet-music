@@ -1,12 +1,14 @@
 %{
-  So now we have the basic score, let's clean some things up. You can see that Lilypond does a 
-  lot things automatically for us. 
+  This is some advance level stuff but I'm not quite happy with the dynamics in the first bar 
+  and the last phrasing mark.  The dynamics context not always centering is a 10+ year old 
+  bug.... and the last phrase marking is slightly overlapping the 3... so let's just remove the 
+  3's as the original didn't have them.  
+
+  Look @ the layout block. 
 %} 
 
 \header {
-  % We can disable the tagline here by saying "false" 
   tagline = ##f
-  % we can do the same for the title 
   title = ##f
 }
 
@@ -19,6 +21,7 @@
       \clef treble \key a \major \time 4/4 
 
       \tuplet 3/2 4 {
+      
         %1 
         d8-> fis_\markup{\italic staccatissimo} a, cis-> eis a b,-> d fis, a-> cis e 
         %2 
@@ -31,9 +34,6 @@
     } 
   }
   
-  % You may have noticed that the text and dynamics aren't centered. This is because they are 
-  % attached to the notes. If we want to put everything in line, we need to put them on their own 
-  % line. For that we have a dynamics context. s is used for a spacer 
   \new Dynamics { 
     % 1 
     s1\p
@@ -69,11 +69,17 @@
   
 
   \layout {
-    % There is a shit ton of things you can put here. For now, however, we're just going to 
-    % disable the indent in the first line 
     indent = 0\cm
-    % Reduce the staff size a little to look more like piano music. 
     #(layout-set-staff-size 18)
+    
+    \context {
+      \Voice 
+      % This will disable the tuplet numbers on all voices 
+      \override TupletNumber.stencil = ##f 
+      % This adds a little more padding so that all text is in line 
+      \override TextScript.staff-padding = #3
+      
+    }
   }
   \midi {}
 }
