@@ -1,8 +1,6 @@
 %{
   So now we have the basic score, let's clean some things up. You can see that Lilypond does a 
   lot things automatically for us. 
-
-  Make sure you look at the layout block at the bottom as well 
 %} 
 
 \header {
@@ -74,6 +72,8 @@
     % There is a shit ton of things you can put here. For now, however, we're just going to 
     % disable the indent in the first line 
     indent = 0\cm
+    % Reduce the staff size a little to look more like piano music. 
+    #(layout-set-staff-size 18)
   }
   \midi {}
 }
