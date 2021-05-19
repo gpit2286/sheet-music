@@ -1,10 +1,15 @@
 %{
-Ok, lets add some more information. If something is attached to a note, it will 
-occur AFTER the note. 
+  So now we have the basic score, let's clean some things up. You can see that Lilypond does a 
+  lot things automatically for us. 
+
+  Make sure you look at the layout block at the bottom as well 
 %} 
 
 \header {
-  title = "Excerpt 1"
+  % We can disable the tagline here by saying "false" 
+  tagline = ##f
+  % we can do the same for the title 
+  title = ##f
 }
 
 
@@ -12,38 +17,37 @@ occur AFTER the note.
   \new PianoStaff << 
     \new Staff {
     \relative c'' {
-      % You can use the \tempo command to write tempo information formatted in such way. 
-      % You can also use it to write \tempo 4 = 88 for a specific tempo 
-      % ORRRR you can combine them and write \tempo "Allegro" 4 = 120 
       \tempo "Allegro ma non tanto" 
       \clef treble \key a \major \time 4/4 
 
       \tuplet 3/2 4 {
         %1 
-        % Expressive notes attached to a note are inputted with a - and then a single 
-        % char... well most. After you get comfortable with these you can just type all 
-        % of this "extra" stuff while you enter the notes 
-        % https://lilypond.org/doc/v2.18/Documentation/notation/expressive-marks-attached-to-notes#articulations-and-ornamentations 
-        % accents are -> 
-        % Most dynamics can be entered with \p or \f etc 
-        % Entering text could be a book of its own. For this we're going to put an underscore 
-        % that says the text should be under the note, a markup command, and then the text.
-        % the \italic makes it italic  
-        d8->\p fis_\markup{\italic staccatissimo} a, cis-> eis a b,-> d fis, a-> cis e 
+        d8-> fis_\markup{\italic staccatissimo} a, cis-> eis a b,-> d fis, a-> cis e 
         %2 
         d-> fis a, cis-> eis a b,-> d fis, a-> cis e | 
         %3 
-        % crescendos and dim are a little tricky. 
-        % \cresc and \dim with start a text with dots after 
-        % \< and \> will draw the hairpins. either way, they are 
-        % stopped with \! on the last note of the figure 
-        <b e? fis>\< g' a\! ais cis, b' dis, cis' e, dis' fis, e' | 
+        <b e? fis> g' a ais cis, b' dis, cis' e, dis' fis, e' | 
         %4 
-        g, fis' b, eis a, fis' g,\> b b,\! a' cis, g' | 
+        g, fis' b, eis a, fis' g, b b, a' cis, g' | 
       }
     } 
   }
   
+  % You may have noticed that the text and dynamics aren't centered. This is because they are 
+  % attached to the notes. If we want to put everything in line, we need to put them on their own 
+  % line. For that we have a dynamics context. s is used for a spacer 
+  \new Dynamics { 
+    % 1 
+    s1\p
+    % 2 
+    s1 | 
+    % 3 
+    \tuplet 3/2 {s8\< s8 s8\!} s4 s2 | 
+    % 4
+    s2 \tuplet 3/2 {s8\> s s\!} s4 
+  } 
+
+
   \new Staff {
     \relative c' {
       \clef treble \key a \major \time 4/4 
@@ -53,9 +57,6 @@ occur AFTER the note.
         %2 
         d-> fis a, cis-> eis a b,-> d fis, a-> cis e | 
         %3 
-        % ties are entered with a ( after the first note and a ) 
-        % after the last. You can have two levels happening at once. The regular 
-        % ( and ) are good for short slurs and the \( and \) are good for < 1 measure 
         <b e fis>( g' a bes g e b \clef bass g b,) 
       }  d,4~ | 
         %4
@@ -69,7 +70,11 @@ occur AFTER the note.
 
   
 
-  \layout {}
+  \layout {
+    % There is a shit ton of things you can put here. For now, however, we're just going to 
+    % disable the indent in the first line 
+    indent = 0\cm
+  }
   \midi {}
 }
 
