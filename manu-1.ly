@@ -51,6 +51,8 @@ Let's start with setting the treble staff
         % brackets <> contain notes that sound at the same time 
         % the second note is g' because bracketed notes keep the reference to the 
         % first note entered (The b in the middle of the staff in this instance) 
+        % A question mark after a note will force the accidental to be printed with  () 
+        % an exclamation mark will force print without ()  
         <b e fis> g' a ais cis, b' dis, cis' e, dis' fis, gis' | 
         %4 
         g, fis' b, eis a, fis' g, b b, a' cis, g' | 
