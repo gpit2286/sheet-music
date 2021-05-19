@@ -1,10 +1,9 @@
 %{
   This is some advance level stuff but I'm not quite happy with the dynamics in the first bar 
   and the last phrasing mark.  The dynamics context not always centering is a 10+ year old 
-  bug.... and the last phrase marking is slightly overlapping the 3... so let's just remove the 
+  bug.... Though this is v 2.18 and they are on 2.20 now.  2.18 was released... 7 years ago. 
+  And the last phrase marking is slightly overlapping the 3... so let's just remove the 
   3's as the original didn't have them.  
-
-  Look @ the layout block. 
 %} 
 
 \header {
@@ -59,7 +58,12 @@
       }  d,4~ | 
         %4
       \tuplet 3/2 4 { 
-          d8 a'( g' cis g g' \clef treble cis,8 b'4)
+          d8 a'( g' cis g g' \clef treble 
+          % Turn it on here for the last tuplet 
+          % Also move the bracket to the bottom to not run into the slur 
+          \once \override TupletBracket.direction = #DOWN
+          \override TupletNumber.stencil = ##t
+          cis,8 b'4)
       }  r4 
     }
   }
@@ -76,13 +80,15 @@
       \Voice 
       % This will disable the tuplet numbers on all voices 
       \override TupletNumber.stencil = ##f 
-      % This adds a little more padding so that all text is in line 
-      \override TextScript.staff-padding = #3
-      
+    }
+
+    \context { 
+      % give a little more space to the hair pins. This would usually be done inline to not 
+      % change ALL of them 
+      \Dynamics 
+      \override Hairpin.Y-offset = #-5.5
     }
   }
   \midi {}
 }
 
-
- 
