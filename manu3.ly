@@ -119,6 +119,8 @@
 
   >>
 
-  \layout {}
+  \layout {
+    indent = 0\mm
+  }
   \midi {}
 }
