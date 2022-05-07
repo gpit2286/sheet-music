@@ -8,10 +8,10 @@ a,32-.  r16. r8 r8 r32 d16-> ees32-. |
 a,32-. r16. r8 r8 r32 d16-> ees32-. | 
 a,32-. r16. r32 d16-> ees32-. a,32-. r16. r32 d16-> ees32-. |
 a,32-. r16. r8 r4 | 
-R2*2 | %p185, 16
+R2*2 | %p185, m16
 a'4:64\p\< a4:64\f\> |
 aes32\p r16. r8 r4 | 
-<gis b>4:64\p\< <gis b>\f\< | 
+<gis b>4:64\p\< <gis b>4:64\f\< | 
 \stemUp <fis d' fis>32\f r16. r8 <fis d' fis>32:64 r16. r8 | 
 \stemNeutral <fis a a'>32 r16. r8 <fis a a'>32 r16. r8 |
 <bes bes'>32 dis16\cresc[e fis g a bes32] r32 dis-. e-. g-. | 
