@@ -39,7 +39,8 @@ b'2:64_\markup {\dynamic fpp}
 	e8.\fz( g16-.) g8-.( d-.) | c8.(\fz e16-.) e8-.( b8-.) | 
 	a8.(\fz c16-.) c8-.( g-.) | \acciaccatura fis8 fis'8.\fz( a16-.) a8-.( e-.) | 
 	d8.(\fz fis16-.) fis8-.( c-.) | b8.\fz( d16-.) d8-.( a-.) | g8.(\fz b16-.) b8-.( fis-.) | 
-	\acciaccatura e8 e'8.(\fz g16-.) g8-.( e-.) | 
+	\acciaccatura e8 e'8.(\fz g16-.) g8-.( e-.) | %p188, m.74 
+	
 }	
 
 
