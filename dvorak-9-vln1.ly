@@ -12,7 +12,7 @@ R2*2 | %p185, m16
 a'4:64\p\< a4:64\f\> |
 aes32\p r16. r8 r4 | 
 <gis b>4:64\p\< <gis b>4:64\f\< | 
-\stemUp <fis d' fis>32\f r16. r8 <fis d' fis>32:64 r16. r8 | 
+\stemUp <fis d' fis>32\f r16. r8 <fis d' fis>32 r16. r8 | 
 \stemNeutral <fis a a'>32 r16. r8 <fis a a'>32 r16. r8 |
 <bes bes'>32 dis16\cresc[e fis g a bes32] r32 dis-. e-. g-. | 
 b32-.\sf r16. <fis,, dis' b'>32 r16. r4 | 
@@ -40,7 +40,7 @@ b'2:64_\markup {\dynamic fpp}
 	a8.(\fz c16-.) c8-.( g-.) | \acciaccatura fis8 fis'8.\fz( a16-.) a8-.( e-.) | 
 	d8.(\fz fis16-.) fis8-.( c-.) | b8.\fz( d16-.) d8-.( a-.) | g8.(\fz b16-.) b8-.( fis-.) | 
 	\acciaccatura e8 e'8.(\fz g16-.) g8-.( e-.) | %p188, m.74 
-	
+
 }	
 
 
