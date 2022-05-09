@@ -69,10 +69,17 @@ b'2:64_\markup {\dynamic fpp}
 	g4.(\! g8-.) | e8-.( d4.->) | g8.(\< b16 d8) d-. | d2\> | d8.\!( e16 d8. c16) | %162 
 	b8(\< d4.)\> | \tuplet 3/2 4 {c8(\! d c a fis e)} | d2\cresc | \tuplet 3/2 4 {c'8(\! d c a fis e)} | 
 	d2 | a'16(\cresc b a8) a16( b a8)\! | a16(\< b a8) a16( b a8) | d16( e d8) d16( e d8) | 
-	d16\!( e d8) (d16 e d8) | \acciaccatura d8 g2:16\ff
-
-
+	d16\!( e d8) (d16 e d8) | \acciaccatura d8 g2:16\ff | % p193, 172 
+	g2:16 | g2:16 | e16 e d d d d d d, | g g g b d4:16 | <d, d'>2:16 | 
 }	
+\alternative {
+    	 {
+			<d d'>8 r <dis dis'> r | b'2:16_\markup{\dynamic fpp}} | b2:16\> b2:16\! 
+		}
+    	 {
+			d8\ff r b4->\fz~ | b8. g,16~ g( b) b( g') | 
+		}
+  	}
 
 
 
