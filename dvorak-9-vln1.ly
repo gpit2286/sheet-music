@@ -40,6 +40,14 @@ b'2:64_\markup {\dynamic fpp}
 	a8.(\fz c16-.) c8-.( g-.) | \acciaccatura fis8 fis'8.\fz( a16-.) a8-.( e-.) | 
 	d8.(\fz fis16-.) fis8-.( c-.) | b8.\fz( d16-.) d8-.( a-.) | g8.(\fz b16-.) b8-.( fis-.) | 
 	\acciaccatura e8 e'8.(\fz g16-.) g8-.( e-.) | %p188, m.74 
+	R2 | e8.\fz( g16-.) g8(-. e8-.) | R2 | e8.\mf g16 g8-.( e8-.) | 
+	r8 g8(\dim fis e)\! | r8 g( fis e) | r g(\> fis e)\! | 
+	r d(\p cis c) | b8.->( d16-.) d8-._\markup{\italic{sempre più dimn.}} b-. | 
+	r8 c( b a) | b8.( d16-.) d8-. b-. | %84 
+	r8 c( b a) | r gis( a b) | a8.( c16-.) c8-. a-. | 
+	r8 bes( a g) | r bes( a g) | r bes( a g) | r bes( a g) | 
+
+
 
 }	
 
