@@ -62,7 +62,8 @@ b'2:64_\markup {\dynamic fpp}
 	d8-.\!( b8-.\dim) b16( c d8) | b16(\> a) a4.--| g16(\pp b) b-. g-. g( b) b-. g-. | 
 	g16(\cresc b) b-. g-. g( b) b-. g-. | g16(\f b) b-. g-. g( b) b-. g-. | 
 	g16(\> b) b-. g-. g( b) b-. g-. | %137 
-	b8-.\p( d-.) d16( c\< b8) | e16( g) g( e) g4-> | d8\p-.( b-.) b16_\markup\italic{dim.}( c d8) | 
+	b8-.\p( d-.) d16( c\< b8) | e16( g) g( e) g4-> | d8-.(\! b-.) b16\>( c d8) | 
+	b16( a) a4. | d8\p-.( b-.) b16_\markup\italic{dim.}( c d8) | 
 	b16( a) a4. | b16(\> a) a4. | b16( a) a4. | b4\pp( c | b\> c | b c | %p192, 148 
 	b4 a) | g2\ppp~ | g~ | g( | fis) | fis( | g) | 
 
