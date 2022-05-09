@@ -52,7 +52,11 @@ b'2:64_\markup {\dynamic fpp}
 	bes8) d8-. d(_\markup{\italic{molto cresc.}} g) | r8 g8-. g( ees) | 
 	r8 d8-.\< d( g) | r8 d'8-. d( c) | % p.190, 111
 	gis16\f( b) b( gis) b4\> | R2\! | gis16(\f b) b( gis) b4\> | R2\! | 
-	
+	gis16\p( b) b( gis) b4 | gis16( b) b( gis) b4 | a16(\cresc c) c( a) c4\! | 
+	a16\<( c) c( a) c4 | c16( e) e( c) e4 | %120
+	c16( e) e( c) e4 | e16\f( g) g( e) e( b) b( gis) | gis( e') e( b) b( gis) gis( e) | 
+	e\dim( b') b( gis\!) gis(\> e) e( b) | b( gis') gis( e) e( b) b( gis) | 
+	g(\p\( b) b( g) g( b) b( g)\) | 
 
 
 }	
