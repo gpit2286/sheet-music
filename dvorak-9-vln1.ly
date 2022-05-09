@@ -56,7 +56,15 @@ b'2:64_\markup {\dynamic fpp}
 	a16\<( c) c( a) c4 | c16( e) e( c) e4 | %120
 	c16( e) e( c) e4 | e16\f( g) g( e) e( b) b( gis) | gis( e') e( b) b( gis) gis( e) | 
 	e\dim( b') b( gis\!) gis(\> e) e( b) | b( gis') gis( e) e( b) b( gis) | 
-	g(\p\( b) b( g) g( b) b( g)\) | 
+	g(\p\( b) b( g) g( b) b( g)\) | g(\(\cresc b) b( g) g( b) b( g)\) | 
+	g(\fz b) b-. g-. g(\> b) b-. g-. | %p191, 128 
+	g16( b) b-. g-. g(\! b) b-. g-. | b8-.( d-.) d16( c b8) | e16\<( g) g( e) g4 | 
+	d8-.\!( b8-.\dim) b16( c d8) | b16(\> a) a4.--| g16(\pp b) b-. g-. g( b) b-. g-. | 
+	g16(\cresc b) b-. g-. g( b) b-. g-. | g16(\f b) b-. g-. g( b) b-. g-. | 
+	g16(\> b) b-. g-. g( b) b-. g-. | %137 
+	b8-.\p( d-.) d16( c\< b8) | e16( g) g( e) g4-> | d8\p-.( b-.) b16_\markup\italic{dim.}( c d8) | 
+	b16( a) a4. | b16(\> a) a4. | b16( a) a4. | b4\pp( c | b\> c | b c | %p192, 148 
+	b4 a) | g2\ppp~ | g~ | g( | fis) | fis( | g) | 
 
 
 }	
