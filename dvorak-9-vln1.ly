@@ -84,7 +84,9 @@ b'2:64_\markup {\dynamic fpp}
 g8.(\< b16) \tuplet 3/2 {dis8 dis dis} | %180II 
 dis2\fz~ | dis8 r b4\fz~ | b8. g,16 g( b) b( g') | 
 g8.( b16_\markup\italic{dim.} dis16) dis-. dis-. dis-. | dis2\> | 
-g,,8.\p b16 g16(_\markup\italic{leggiero} b g') g-. | 
+g,,8.\p b16 g16(_\markup\italic{leggiero} b g') g-. | g8.\> b16 g( b g') g-. | 
+g,8.\pp b16 g16( b g') g-. | g,8. b16 g( b g') g-. | %p194, 189 
+
 
 
 }
