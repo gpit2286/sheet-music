@@ -46,7 +46,13 @@ b'2:64_\markup {\dynamic fpp}
 	r8 c( b a) | b8.( d16-.) d8-. b-. | %84 
 	r8 c( b a) | r gis( a b) | a8.( c16-.) c8-. a-. | 
 	r8 bes( a g) | r bes( a g) | r bes( a g) | r bes( a g) | 
-
+	d'2\ppp^\flageolet~ | d ~ | %p189, 93 
+	d~ | d~ | d~ | d~ | d~ | d | d4\ppp( d' | d, d') | d,( d' | %102 
+	d, d') | d,( d' | d, d') | d,( d' | d,8 d' bes16 a g d | 
+	bes8) d8-. d(_\markup{\italic{molto cresc.}} g) | r8 g8-. g( ees) | 
+	r8 d8-.\< d( g) | r8 d'8-. d( c) | % p.190, 111
+	gis16\f( b) b( gis) b4\> | R2\! | gis16(\f b) b( gis) b4\> | R2\! | 
+	
 
 
 }	
