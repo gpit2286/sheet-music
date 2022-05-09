@@ -76,7 +76,7 @@ b'2:64_\markup {\dynamic fpp}
     	 {
 			<d d'>8 r <dis dis'> r | b'2:16_\markup{\dynamic fpp}} | b2:16\> b2:16\! 
 		}
-    	 {
+    	 { %TODO: Add second ending text 
 			d8\ff r b4->\fz~ | b8. g,16~ g( b) b( g') | 
 		}
   	}
