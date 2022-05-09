@@ -65,7 +65,11 @@ b'2:64_\markup {\dynamic fpp}
 	b8-.\p( d-.) d16( c\< b8) | e16( g) g( e) g4-> | d8-.(\! b-.) b16\>( c d8) | 
 	b16( a) a4. | d8\p-.( b-.) b16_\markup\italic{dim.}( c d8) | 
 	b16( a) a4. | b16(\> a) a4. | b16( a) a4. | b4\pp( c | b\> c | b c | %p192, 148 
-	b4 a) | g2\ppp~ | g~ | g( | fis) | fis( | g) | 
+	b4 a) | g2\ppp~ | g~ | g( | fis) | fis( | g) | a4( fis8. e16) | g16\<( d b d g b d g) | 
+	g4.(\! g8-.) | e8-.( d4.->) | g8.(\< b16 d8) d-. | d2\> | d8.\!( e16 d8. c16) | %162 
+	b8(\< d4.)\> | \tuplet 3/2 4 {c8(\! d c a fis e)} | d2\cresc | \tuplet 3/2 4 {c'8(\! d c a fis e)} | 
+	d2 | a'16(\cresc b a8) a16( b a8)\! | a16(\< b a8) a16( b a8) | d16( e d8) d16( e d8) | 
+	d16\!( e d8) (d16 e d8) | \acciaccatura d8 g2:16\ff
 
 
 }	
